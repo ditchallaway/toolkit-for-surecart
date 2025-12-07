@@ -1,0 +1,27 @@
+{
+  "name": "surelywp/surelywp-tk-vm-notice",
+  "version": "1.0.0",
+  "title": "Vacation Notice",
+  "category": "surelywp",
+  "description": "Display Vacation Notice Message",
+  "keywords": [
+    "surelywp",
+    "toolkit",
+    "vacation",
+    "mode",
+    "notice",
+    "vacation-mode",
+    "surelywp-toolkit",
+    "vacation notice"
+  ],
+  "discounts": {
+    "reusable": false,
+    "html": false
+  },
+  "textdomain": "surelywp-toolkit",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

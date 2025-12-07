@@ -1,0 +1,663 @@
+.surelywp-plugin-fw-tabs li.surelywp-plugin-fw-tab-element a label {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden-important {
+    display: none !important;
+}
+
+.tk-error-danger {
+    color: red;
+}
+
+.surelywp-ric-settings-box-wrap .form-control textarea {
+    font-family: 'Poppins' !important;
+    font-size: 13px !important;
+    font-weight: 600;
+    line-height: 20px;
+    color: #4c5866;
+}
+
+.wp-core-ui .surelywp-body-content-header .btn-disable .button-primary[disabled] {
+    color: #a7aaad !important;
+    background: url(../images/save-disable.svg) 10px center no-repeat #f1f5f9 !important;
+    border-color: #f1f5f9 !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important
+}
+
+.btn-disable {
+    background: var(--background, #f1f5f9) !important
+}
+
+.field-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.field-drag-handle {
+    display: inline-block;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.input-label-required {
+    margin: 0px 10px 0px auto;
+}
+
+
+.multi-selection .select2-container {
+    width: 100% !important;
+}
+
+.multi-selection .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    padding: 3px 30px 3px 10px;
+    position: relative;
+    margin: 8px 5px;
+}
+
+
+.multi-selection .select2-container .select2-selection--multiple {
+    min-height: 50px;
+}
+
+.multi-selection .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    border-right: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 20px;
+    right: 5px;
+    font-size: 26px;
+    left: auto;
+    font-weight: normal;
+}
+
+
+.surelywp-ric-settings-box .widefat {
+    border: 2px solid #f1f5f9;
+    margin-top: 7px;
+}
+
+.add-new-toolkit .addons-btn-wrap {
+    margin-top: 20px;
+}
+
+.surelywp-ric-settings-box .toolkit-templates {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.surelywp-ric-settings-box .form-control.toolkit-templates {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 6px;
+    background-color: #F1F5F9;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+
+.surelywp-ric-settings-box .form-control.toolkit-templates .image.key {
+    margin-right: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.surelywp-ric-settings-box .form-control.toolkit-templates .input-label {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #4C5866;
+    -webkit-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+}
+
+.surelywp-ric-settings-box .form-control.toolkit-templates .image.edit-icon {
+    padding: 6px 7px;
+}
+
+.surelywp-ric-settings-box .form-control.toolkit-templates .image.remove-icon {
+    padding: 6px 7px;
+}
+
+.surelywp-ric-settings-box.toolkit-templates-table input.widefat {
+    margin-top: 5px;
+}
+
+
+.surelywp-ric-settings-box.toolkit-templates-table .widefat {
+    border: 2px solid #F1F5F9;
+}
+
+.surelywp-ric-settings-box .form-control.toolkit-templates .image.edit-icon a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(100% - 50px);
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.surelywp-ric-settings-box .form-control.toolkit-templates .image.remove-icon a:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.remove-icon a img {
+    height: 28px;
+    width: 28px;
+}
+
+.remove-icon a:focus {
+    box-shadow: none;
+}
+
+.surelywp-plugin-fw.surelywp-admin-panel-container .surelywp-content-title h2 {
+    display: flex;
+    line-height: 28px;
+}
+
+.surelywp-plugin-fw.surelywp-admin-panel-container .surelywp-content-title h2 a {
+    line-height: 0;
+}
+
+input.full-click[type="time"] {
+    position: relative;
+}
+
+input.full-click[type="time"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    color: transparent;
+    background: transparent;
+}
+
+/* For save changes button */
+.surelywp-options-save .button-primary,
+.surelywp-options-save .button-primary[type=submit] {
+    font-weight: 600;
+    border-radius: 6px;
+    background: #06f;
+    border-color: #06f;
+    padding: 0 10px 0 30px;
+    background-image: url(../images/licence.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: 10px center !important;
+}
+
+.surelywp-options-save img {
+    display: none !important;
+}
+
+
+
+input.schedule-time[type="datetime-local"],
+input.schedule-time[type="time"] {
+    position: relative;
+}
+
+input.schedule-time[type="datetime-local"]::-webkit-calendar-picker-indicator,
+input.schedule-time[type="time"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    color: transparent;
+    background: transparent;
+}
+
+.surelywp-tk-vm-priority-wrap {
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    color: #A3B0C2;
+    margin-right: 13px;
+    line-height: 16px;
+}
+
+.admin-columns-fields .admin-column-field,
+.surelywp-tk-misc-ccd-tabs .surelywp-tk-misc-ccd-tab,
+.surelywp-sortable-fields .surelywp-sortable-field {
+    margin-bottom: 20px;
+}
+
+.admin-column-field,
+.surelywp-tk-misc-ccd-tab,
+.surelywp-sortable-field {
+    position: relative;
+}
+
+.admin-column-top,
+.surelywp-tk-misc-ccd-tab-top,
+.surelywp-sortable-field-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-column-top .top-left,
+.surelywp-tk-misc-ccd-tab-top .top-left,
+.surelywp-sortable-field-top .top-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.admin-column-field-options,
+.surelywp-tk-misc-ccd-tab-options,
+.surelywp-sortable-field-options {
+    margin-top: 20px;
+}
+
+
+.column-toogle-btn,
+.tab-toogle-btn,
+.surelywp-sortable-field-toogle-btn {
+    cursor: pointer;
+    line-height: 0;
+}
+
+.admin-column-heading-top,
+.surelywp-tk-misc-ccd-tab-heading-top,
+.surelywp-sortable-field-heading-top {
+    cursor: pointer;
+    color: #4C5866;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    align-content: center;
+    text-decoration-skip-ink: none;
+}
+
+.field-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 4.5px;
+}
+
+.surelywp-tk-misc-ccd-tab-remove {
+    cursor: pointer;
+}
+
+.surelywp-btn {
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    padding: 10px;
+    background-color: #F1F5F9;
+    color: #6B7280;
+    display: inline-block;
+}
+
+.admin-columns-settings .columns-btns {
+    margin: 20px 0;
+    display: flex;
+    gap: 5px;
+}
+
+.settings-tabs {
+    display: flex;
+    margin: 20px 0 0;
+    gap: 5px;
+}
+
+.first-heading {
+    margin-top: 0 !important;
+}
+
+.sc-checkout-sync-btn {
+    margin-top: 8px;
+    align-items: center;
+    display: flex;
+    width: max-content;
+    gap: 10px;
+}
+
+.sc-checkout-sync-btn img {
+    width: 14px;
+    height: 14px;
+}
+
+.sc-checkout-sync-btn:hover {
+    background: #0056d8;
+}
+
+.msg-success {
+    color: green;
+}
+
+/* For the settings description start */
+.surelywp-field-label .overview-page p,
+.surelywp-ric-settings-box .grid-view-wrap .description,
+.surelywp-ric-settings-box-wrap label,
+.toggleSwitch>span span:first-of-type .surelywp-admin-panel-content-wrap label,
+.changelog-list .changelog-title .changelog-sublist,
+.changelog-list .changelog-title .changelog-sublist li:before {
+    color: #4C5866 !important;
+}
+
+/* For the settings description end */
+
+.surelywp-field-label .heading-text.product-page-visibility-heading,
+.surelywp-field-label .heading-text.shop-page-visibility-heading {
+    margin-bottom: 10px;
+}
+
+
+.form-control .checkbox-option {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.form-control .checkbox-option .surelywp-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f1f5f9;
+    margin-right: 10px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: white;
+    position: relative;
+
+}
+
+input[type=checkbox]:checked::before {
+    content: none !important;
+}
+
+.surelywp-checkbox:checked::after {
+    content: url("../images/right-mark.svg");
+    display: block;
+    position: absolute;
+    left: 2px;
+    width: 7px;
+    height: 11px;
+    top: -2px;
+}
+
+
+.form-control .checkbox-option .surelywp-checkbox:checked {
+    background-color: #0066ff;
+    border-color: #0066ff;
+    box-shadow: none;
+}
+
+.form-control .checkbox-option label {
+    cursor: pointer !important;
+}
+
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap {
+    overflow-x: auto;
+
+}
+
+.surelywp-plugin-fw .surelywp-btn .surelywp-btn {
+    text-decoration: none;
+    color: #4C5866;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.surelywp-btn {
+    background-color: transparent;
+    border: 2px solid #E5EFFF;
+    border-radius: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+
+
+.surelywp-plugin-fw .reset-modal .modal-content {
+    width: 350px;
+    position: relative;
+    padding: 0;
+}
+
+/* default popup style */
+.surelywp-plugin-fw .modal-content {
+    width: 550px !important;
+    padding: 0 !important;
+}
+
+.surelywp-plugin-fw .show-modal h4 {
+    margin: 0;
+    padding: 16px 20px;
+    border-bottom: 2px solid #F1F5F9;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.surelywp-plugin-fw .close-button {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}
+
+.surelywp-plugin-fw .modal-content {
+    position: relative;
+}
+
+.modal-btns a {
+    background-color: #0066FF;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.modal-btns a:hover {
+    opacity: .8;
+}
+
+/* default popup style */
+
+.reset-modal .modal-content {
+    padding: 0;
+}
+
+.reset-modal .modal-content h4 {
+    padding: 16px 58px 16px 20px;
+    border-bottom: 2px solid #F1F5F9;
+    margin-bottom: 0 !important;
+}
+
+.surelywp-plugin-fw .reset-modal .modal-content .close-button {
+    right: 20px;
+    position: absolute;
+    top: 16px;
+}
+
+.modal-btn-wrap {
+    padding: 20px;
+}
+
+.modal-btn-wrap .text {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4C5866;
+}
+
+.modal-btn-wrap form {
+    display: flex;
+}
+
+
+.modal-btn-wrap form .close-modal-button {
+    background-color: #F1F5F9;
+    padding: 5px 10px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #A3B0C2;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+
+.reset-modal form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal-btn-wrap form input {
+    width: auto !important;
+    font-family: 'Poppins';
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+}
+
+.modal-btn-wrap form .close-modal-button:hover {
+    background-color: #0066ff;
+    color: #fff;
+}
+
+.tab-restriction-setting .form-control.role-wise {
+    margin-bottom: 0;
+}
+
+.tab-restriction-setting .form-control.tab-visibility-condition-fc {
+    margin-top: 20px;
+}
+
+.import-export-tab button.button-primary[type=submit],.import-export-tab button.button-secondary[type=submit] {
+    color: #ffffff !important;
+    font-size: 13px;
+    background: #0066ff;
+    border-color: #0066ff;
+    font-weight: 500;
+    padding: 4px 10px 4px 8px;
+    border-radius: 8px;
+    gap: 2px;
+    line-height: 19px;
+    transition: all .2s ease;
+    min-height: 34px;
+    align-items: center;
+    display: inline-flex;
+}
+
+.attachment-file .filepond--root a.filepond--credits {
+    display: none;
+}
+
+
+.import-export-tab .filepond--root {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border: 2px dashed #f1f5f9;
+    color: #a3b0c2;
+    font-size: 14px;
+    line-height: 20px;
+    height: 80px !important;
+    display: flex;
+}
+.import-export-tab .filepond--root:has(ul.filepond--list:empty) input.filepond--browser{
+        height: 120px;
+}
+.import-export-tab .filepond--root .filepond--drop-label{
+    min-height: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%) !important;
+    font-weight: 700;
+}
+.import-export-tab .filepond--root .filepond--panel{
+    background: #ffffff;
+}
+.import-export-tab .filepond--root:has(ul.filepond--list:empty) {
+    height: 122px !important;
+}
+.import-export-tab .filepond--root:hover, .import-export-tab .filepond--root:hover input, .import-export-tab .filepond--root:hover .filepond--panel {
+    background: #ecf0f5;
+}
+.import-export-tab  #import-settings-form .attachment-file  .filepond--drop-label label{
+    font-size: 14px;
+    margin-bottom: 0;
+    cursor: initial;
+    position: relative;
+    padding: 20px .5em .5em;
+    color: #6b7280;
+    font-weight: 700;
+    line-height: 1.7;
+    position: relative;
+}
+.import-export-tab  #import-settings-form .attachment-file  .filepond--drop-label label span{
+    color: #a3b0c2;
+    text-decoration: none;
+    font-weight: 700;
+}
+.import-export-tab .attachment-file .filepond--drop-label label:before {
+    content: "";
+    background: url(../images/import_upload.svg) 0 0 / contain no-repeat;
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.import-export-tab #import-settings-form .attachment-file .filepond--drop-label label span.filepond--label-action:last-child {
+    display: block;
+}
+.import-export-tab .form-control.addons-btn-wrap {
+    margin-bottom: 16px;
+}
+.surelywp-admin-panel-content-wrap .import-export-tab  .form-control > label{
+    margin-bottom: 10px;
+}

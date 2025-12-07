@@ -1,0 +1,32 @@
+.surelywp-vacation-mode-notice {
+    font-family: var(--sc-input-font-family);
+    font-weight: var(--sc-font-weight-normal);
+    font-size: 16px;
+    line-height: var(--sc-line-height-dense);
+    margin-bottom: var(--sc-spacing-large);
+    box-shadow: var(--sc-shadow-small);
+    border-radius: var(--sc-alert-border-radius, var(--sc-border-radius-medium));
+    border: var(--sc-alert-border, var(--sc-input-border));
+    padding: var(--sc-spacing-large);
+    
+    width: 100%;
+    margin-top: 10px !important;
+    background: var(--sc-card-background-color, var(--sc-color-white));
+    border-top: 3px solid var(--sc-color-primary-500);
+}
+
+.surelywp-vacation-mode-notice .vacation-mode-message {
+    color: var(--sc-alert-color, var(--sc-input-label-color));
+    display: inline !important;
+    margin-right: 10px;
+}
+
+.wp-block-surecart-product-selected-price-fees,
+.wp-block-surecart-product-selected-price-trial {
+    width: 100%;
+}
+
+.wp-block-group:has(.surelywp-vacation-mode-notice) {
+    flex-direction: column;
+    align-items: flex-start;
+}

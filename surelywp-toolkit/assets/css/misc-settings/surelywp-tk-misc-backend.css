@@ -1,0 +1,11 @@
+.hidden {
+    display: none;
+}
+
+#surelywp_tk_misc_external_product .inside {
+    padding: 0;
+}
+
+#surelywp_tk_misc_external_product, #surelywp_tk_misc_price_desc {
+    border-radius: calc(7px);
+}

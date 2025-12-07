@@ -1,0 +1,979 @@
+.btn,
+a,
+a:active,
+a:hover,
+button,
+input {
+    transition: .2s
+}
+
+.surelywp-plugin-fw .notice .notice-dismiss:before {
+    content: "";
+    background: url("../images/close-icon.svg");
+    width: 28px;
+    height: 28px
+}
+
+.surelywp-plugin-fw .notice .notice-dismiss {
+    padding: 0;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.surelywp-plugin-fw .modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear .25s, opacity .25s, transform .25s;
+    z-index: 9999
+}
+
+.surelywp-plugin-fw .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+    width: 310px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 5px 30px 0 rgba(43, 135, 218, .2)
+}
+
+.surelywp-plugin-fw .show-modal h4 {
+    margin: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px
+}
+
+.surelywp-plugin-fw .close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: .25rem;
+    background: url(../images/popup-close-icon.svg) center no-repeat;
+    font-size: 0
+}
+
+.surelywp-plugin-fw .text {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 15px
+}
+
+.surelywp-plugin-fw .modal-btn-wrap .modal-btns a {
+    display: inline-flex;
+    background: #f1f5f9;
+    padding: 4px 12px;
+    border-radius: 8px;
+    min-height: 26px;
+    color: #a3b0c2;
+    align-items: center
+}
+
+.reset-modal form,
+.surelywp-plugin-fw .modal-btn-wrap .modal-btns,
+.surelywp-plugin-fw .surelywp-body-content-header .surelywp-content-title h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.surelywp-plugin-fw .modal-btn-wrap .modal-btns a.confirm-as-vacation-delete {
+    background: #f12424;
+    color: #fff
+}
+
+.surelywp-plugin-fw .show-modal #surelywp_reset {
+    border-radius: 8px;
+    border-color: unset;
+    background: #f12424;
+    font-size: 14px;
+    padding: 4px 12px;
+    display: block;
+    width: 100%;
+    font-weight: 600
+}
+
+.surelywp-btn {
+    background-color: transparent;
+    border: 2px solid #e5efff;
+    border-radius: 8px;
+    padding: 4px 12px;
+    cursor: pointer;
+    gap: 8px;
+    min-height: 22px;
+    display: inline-flex;
+    align-items: center
+}
+
+.modal-btn-wrap form .close-modal-button {
+    background-color: #f1f5f9;
+    padding: 4px 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #a3b0c2;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    min-height: 26px
+}
+
+.surelywp-plugin-fw .show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: visibility linear, opacity .25s, transform .25s;
+    z-index: 9999
+}
+
+.change-log .changelog-list {
+    flex-direction: column;
+    border-bottom: unset
+}
+
+.changelog-list .changelog-title h4 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 2px;
+    margin-top: 0
+}
+
+.changelog-list .changelog-title .changelog-sublist {
+    color: #4c5866;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.changelog-list .changelog-title .changelog-sublist li {
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #a3b0c2
+}
+
+.changelog-list .changelog-title .changelog-sublist li:before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    left: 8px;
+    border-radius: 50px;
+    top: 8px;
+    background: #a3b0c2
+}
+
+.changelog-version {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1d2327;
+    margin-bottom: 4px
+}
+
+.changelog-date {
+    color: #4c5866;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 7px
+}
+
+.changelog-list .changelog-title {
+    position: relative;
+    padding-left: 35px;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 16px
+}
+
+.changelog-title .changelog-title-dots span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cg clip-path='url(%23clip0_9082_20809)'%3E%3Cpath d='M0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10Z' fill='%23F9FAFB'/%3E%3Cpath d='M10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1Z' stroke='%23E5EFFF' stroke-width='2'/%3E%3Ccircle cx='10' cy='10' r='5' fill='%230066FF'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_9082_20809'%3E%3Cpath d='M0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10Z' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px
+}
+
+.changelog-title .changelog-title-dots::after {
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: #e5efff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.changelog-title .changelog-title-dots {
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 20px
+}
+
+.changelog-list .changelog-title:last-child {
+    padding-bottom: 0
+}
+
+.changelog-list .changelog-title:last-child .changelog-title-dots::after,
+.changelog-list .changelog-title:last-child:after,
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-container .mce-panel div.mce-statusbar {
+    display: none
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap {
+    overflow-x: hidden
+}
+
+.surelywp-plugin-fw.surelywp-admin-panel-container .surelywp-content-title h2 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1d2327
+}
+
+.licence-notice {
+    background-color: #e5efff;
+    display: flex;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    gap: 10px
+}
+
+.licence-notice-icon img {
+    width: 28px;
+    height: 28px
+}
+
+.licence-notice-heading {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1d2327;
+    margin-bottom: 2px
+}
+
+.licence-notice-sub-heading,
+.overview-page .grid-view-wrap-cont,
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box tr td label {
+    color: #4c5866;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: Poppins;
+    line-height: 20px
+}
+
+.licence-notice-close {
+    margin-left: auto
+}
+
+.inquiry-form-btns .surelywp-btn.active,
+.inquiry-form-btns .surelywp-btn:hover,
+.licence-notice-sub-heading a,
+.surelywp-plugin-fw .surelywp-btn:hover .surelywp-btn,
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box tr td label a,
+.surelywp-plugin-fw table.surelywp-ric-settings-box tbody tr td .form-control .surelywp-tab .surelywp-btn.active,
+.surelywp-plugin-fw table.surelywp-ric-settings-box tbody tr td .form-control .surelywp-tab .surelywp-btn:hover,
+.surelywp-wishlist-settings-tabs.settings-tabs .surelywp-btn.active,
+.surelywp-wishlist-settings-tabs.settings-tabs .surelywp-btn:hover {
+    color: #06f
+}
+
+.overview-page .surelywp-field-label,
+.surelywp-ric-settings-box .form-control.toolkit-templates .image.edit-icon a img,
+.surelywp-ric-settings-box .form-control.toolkit-templates .image.remove-icon a img {
+    display: block
+}
+
+.overview-page h4 {
+    color: #1d2327
+}
+
+.overview-page .grid-view-wrap-cont {
+    margin: 2px 0 10px
+}
+
+.overview .surelywp-ric-settings-box-wrap,
+.qt-dfw,
+.surelywp-plugin-fw .mce-toolbar .mce-btn button,
+.surelywp-plugin-fw .mce-toolbar .mce-btn-group {
+    padding: 0
+}
+
+.overview .surelywp-body-content-header {
+    border-radius: 8px 8px 0 0
+}
+
+.overview .con {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px
+}
+
+.overview .overview-icon img {
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    display: block
+}
+
+.overview .overview-icon {
+    margin-right: 20px
+}
+
+.overview .overview-page h4 {
+    color: #1d2327;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.overview .plugin-reso {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 0;
+    border-radius: 8px
+}
+
+.mce-last .mce-btn-group:last-child .mce-btn,
+.overview .surelywp-ric-settings-box-wrap {
+    background-color: transparent
+}
+
+.surelywp-plugin-fw .overview-page .cta {
+    background-color: #06f;
+    border-radius: 8px;
+    padding: 20px
+}
+
+.surelywp-plugin-fw .overview-page .cta-main {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px
+}
+
+.surelywp-plugin-fw .overview-page .cta-main-img {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px
+}
+
+.surelywp-plugin-fw .overview-page .cta-main-img img {
+    display: inline-block
+}
+
+.surelywp-plugin-fw .overview-page .cta-main-cont h3 {
+    margin: 0;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px
+}
+
+.surelywp-plugin-fw .overview-page .cta-main-cont div {
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px
+}
+
+.surelywp-plugin-fw .overview-page .btn {
+    background-color: #fff;
+    padding: 4px 12px;
+    border-radius: 8px;
+    color: #1d2327;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-flex;
+    gap: 8px;
+    font-weight: 500;
+    align-items: center;
+    min-height: 26px
+}
+
+.surelywp-plugin-fw .overview-page .btn img {
+    width: 7px;
+    height: auto
+}
+
+.surelywp-plugin-fw .overview-page .plugin-reso-head {
+    padding: 16px 16px 16px 23px;
+    border-bottom: 2px solid #f1f5f9;
+    margin-bottom: 0
+}
+
+.surelywp-plugin-fw .overview-page .form-table {
+    padding: 20px;
+    display: flex
+}
+
+.surelywp-framework-panel--version-1 .mce-tooltip,
+.surelywp-plugin-fw .overview-page .button-primary {
+    margin-top: 0
+}
+
+.surelywp-plugin-fw .overview-page .btn:hover {
+    opacity: .8
+}
+
+.licence-submit-btn .button-primary {
+    padding: 0 12px 0 28px;
+    background-image: url(../images/surelywp-inactive.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center
+}
+
+.plugin-reso .surelywp-ric-settings-box .addons-btn-wrap a img.btn-right-arrow {
+    width: 7px;
+    height: 14px;
+    margin-right: 0
+}
+
+.plugin-reso .button-primary {
+    gap: 10px
+}
+
+.plugin-reso .surelywp-ric-settings-box .addons-btn-wrap a img {
+    width: 24px;
+    height: 24px;
+    margin: 0
+}
+
+.plugin-reso .surelywp-ric-settings-box .addons-btn-wrap a {
+    font-weight: 500
+}
+
+.overview .description {
+    color: #4c5866;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px
+}
+
+.overview .overview-page h3 {
+    color: #1d2327;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 2px
+}
+
+.cta .cta-main-cont h3 {
+    color: #fff
+}
+
+.surelywp-plugin-fw .notice p,
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box tr td h2 {
+    font-size: 14px;
+    color: #1d2327;
+    font-family: Poppins;
+    font-weight: 700;
+    margin: 0;
+    line-height: 20px
+}
+
+.surelywp-plugin-fw .notice {
+    border: 0;
+    padding: 12px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    background: #feeee9;
+    border-radius: 8px
+}
+
+.surelywp-plugin-fw .notice p {
+    padding: 0 0 0 50px;
+    position: relative
+}
+
+.surelywp-plugin-fw .notice p strong {
+    font-weight: 700
+}
+
+.surelywp-plugin-fw .notice p:before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background: url("../images/error-close.svg");
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.surelywp-plugin-fw .notice.notice-success p:before {
+    background: url("../images/notice-success-icon.svg")
+}
+
+.surelywp-plugin-fw .notice.notice-success {
+    background: #e5faef
+}
+
+.surelywp-plugin-fw .surelywp-body-content-header {
+    padding: 0 20px;
+    height: 52px
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box tr td .licence-submit-btn p.submit {
+    margin-top: 10px
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-wrap .wp-editor-tools .wp-switch-editor {
+    border: 2px solid #e5efff;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    background: 0 0;
+    padding: 2px 10px;
+    top: 0;
+    border-radius: 6px;
+    margin: 5px 0 5px 5px;
+    color: #4c5866
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-wrap .wp-editor-tools .wp-switch-editor:hover {
+    background-color: #06f;
+    color: #fff;
+    border-color: #06f
+}
+
+.surelywp-plugin-fw .surelywp-body-content-header .surelywp-content-title h2 a:focus,
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-wrap .wp-editor-tools .wp-switch-editor:focus {
+    outline: 0;
+    box-shadow: none
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-wrap.html-active .wp-editor-tools .wp-switch-editor[aria-pressed=true],
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-wrap.tmce-active .wp-editor-tools .wp-switch-editor[aria-pressed=true] {
+    background: #e5efff;
+    color: #06f;
+    border-color: #e5efff
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-container {
+    border-width: 0 2px 2px;
+    border-style: solid;
+    border-color: #f1f5f9;
+    border-radius: 6px
+}
+
+#surelywp-addons-header-panel,
+.reset-modal .modal-content h4 {
+    border-bottom: 2px solid #f1f5f9
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-container .quicktags-toolbar,
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-container div.mce-toolbar-grp>div {
+    padding: 4px 10px;
+    border-bottom: 2px solid #f1f5f9;
+    background: #f1f5f9;
+    box-shadow: none
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-container div.mce-toolbar-grp {
+    border: 0;
+    background: 0 0
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-container .mce-toolbar .mce-btn-group {
+    border: 0
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-container div.mce-panel {
+    background: #f1f5f9;
+    box-shadow: none
+}
+
+.qt-dfw,
+.surelywp-plugin-fw .mce-toolbar .mce-btn-group .mce-btn {
+    margin: 0;
+    border-radius: 4px
+}
+
+.mce-last .mce-btn-group:last-child .mce-btn:hover,
+.surelywp-plugin-fw .mce-toolbar .mce-btn-group .mce-btn:hover {
+    background-color: #e1e7ec
+}
+
+.surelywp-plugin-fw .surelywp-admin-panel-content-wrap select,
+.surelywp-plugin-fw .surelywp-admin-panel-content-wrap select option {
+    font-weight: 500;
+}
+
+.surelywp-plugin-fw .mce-toolbar .mce-btn:focus,
+.surelywp-plugin-fw .mce-toolbar .mce-btn:hover,
+.surelywp-plugin-fw .mce-toolbar .qt-dfw:focus,
+.surelywp-plugin-fw .mce-toolbar .qt-dfw:hover {
+    outline: 0;
+    box-shadow: none;
+    background-color: #e1e7ec
+}
+
+.surelywp-plugin-fw .surelywp-list-tab .form-control:last-child,
+.surelywp-plugin-fw table.surelywp-ric-settings-box tbody tr td .surelywp-list-tab:last-child {
+    margin-bottom: 0
+}
+
+.surelywp-plugin-fw .mce-toolbar .mce-btn-group .mce-btn.mce-active,
+.surelywp-plugin-fw .mce-toolbar .mce-btn-group .mce-btn:active,
+.surelywp-plugin-fw .qt-dfw.active {
+    background-color: #06f;
+    border-radius: 4px;
+    border: unset;
+    margin-right: 2px
+}
+
+.surelywp-plugin-fw .mce-toolbar .mce-btn-group .mce-btn.mce-active .mce-ico::before {
+    filter: brightness(0) invert(1)
+}
+
+.surelywp-plugin-fw .cta-main-cont .btn:hover {
+    opacity: 1;
+    background-color: #f1f5f9
+}
+
+.surelywp-btn:hover,
+.surelywp-framework-panel--version-1 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #06f;
+    color: #fff
+}
+
+.surelywp-plugin-fw .nav-tab-active img {
+    filter: none
+}
+
+.surelywp-plugin-fw .field-drag-handle {
+    height: 28px
+}
+
+.surelywp-framework-panel--version-1 .surelywp-plugin-fw-tabs li.surelywp-plugin-fw-tab-element a {
+    white-space: normal
+}
+
+.surelywp-plugin-fw .reset-modal .modal-content {
+    width: 550px;
+    position: relative;
+    padding: 0
+}
+
+.reset-modal .modal-content h4 {
+    padding: 16px 58px 16px 20px;
+    margin-bottom: 0
+}
+
+.reset-modal .modal-btn-wrap {
+    padding: 20px
+}
+
+.surelywp-plugin-fw .reset-modal form input#surelywp_reset {
+    width: auto;
+    font-weight: 500;
+    box-shadow: none;
+    font-size: 13px;
+    line-height: 20px
+}
+
+.surelywp-plugin-fw .reset-modal .text {
+    color: #4c5866
+}
+
+.surelywp-plugin-fw .reset-modal .modal-content .close-button {
+    right: 20px;
+    position: absolute;
+    top: 16px
+}
+
+.reset-modal .modal-btn-wrap form .close-modal-button {
+    background-color: #f1f5f9;
+    padding: 4px 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #a3b0c2;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    min-height: 26px;
+    opacity: 1
+}
+
+.modal-btn-wrap form .close-modal-button:hover,
+.reset-modal .modal-btn-wrap form .close-modal-button:hover,
+.surelywp-plugin-fw .modal-btn-wrap .modal-btns a:hover {
+    opacity: 1;
+    background: #e1e7ec;
+    color: #4c5866
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-container .quicktags-toolbar input.ed_button {
+    font-size: 16px;
+    border: 0;
+    background: 0 0;
+    font-weight: 700;
+    color: #4c5866
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table tr td .form-control .wp-editor-container .quicktags-toolbar input.ed_button:hover {
+    background: 0 0
+}
+
+.surelywp-plugin-fw__wrap .surelywp-plugin-fw-tabs li.surelywp-plugin-fw-tab-element a {
+    width: calc(100% - 10px)
+}
+
+.surelywp-plugin-fw__wrap .surelywp-plugin-fw-tabs li.surelywp-plugin-fw-tab-element a:focus {
+    outline: 0
+}
+
+.surelywp-list-tab {
+    border: 2px solid #f1f5f9;
+    border-radius: 8px;
+    padding: 16px
+}
+
+.surelywp-list-tab.open {
+    border-color: #a3b0c2
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box .form-control.toolkit-templates {
+    padding: 6px 8px;
+    border-radius: 8px;
+    transition: .2s
+}
+
+.surelywp-ric-settings-box .form-control.toolkit-templates:hover {
+    background: #e1e7ec
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box .form-control.toolkit-templates .input-label {
+    margin: 0
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box .form-control.toolkit-templates .image.edit-icon a:focus {
+    box-shadow: none;
+    outline: 0
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box .addons-btn-wrap a {
+    border-color: #06f;
+    transition: .2s
+}
+
+.surelywp-plugin-fw .button-primary:hover,
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box .addons-btn-wrap a:active {
+    background: #0056d8
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box tr td .licence-submit-btn .submit input,
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box tr td .licence-submit-btn.deactive .submit input {
+    background-color: #06f;
+    border-color: #06f;
+    background-image: url("../images/surelywp-inactive.svg");
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    padding: 4px 12px 4px 34px;
+    border-radius: 8px
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box tr td .licence-submit-btn .submit input:hover,
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box tr td .licence-submit-btn.deactive .submit input:hover {
+    background: url("../images/surelywp-inactive.svg") 12px center no-repeat #0056d8;
+    border-color: #0056d8
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box tr td .licence-submit-btn.deactive .submit input {
+    background-color: #f12424;
+    border-color: #f12424
+}
+
+.surelywp-plugin-fw .surelywp-ric-settings-box-wrap table.surelywp-ric-settings-box tr td .licence-submit-btn.deactive .submit input:hover {
+    background-color: #c61c1c;
+    border-color: #c61c1c
+}
+
+.surelywp-ric-settings-box .form-control.toolkit-templates .image.edit-icon,
+.surelywp-ric-settings-box .form-control.toolkit-templates .image.remove-icon {
+    padding: 0 7px
+}
+
+.surelywp-btn.active,
+.surelywp-plugin-fw .surelywp-btn:hover {
+    border-color: #e5efff;
+    background-color: #e5efff;
+    box-shadow: unset
+}
+
+.surelywp-plugin-fw .surelywp-btn:hover {
+    background-color: #e5efff
+}
+
+.surelywp-plugin-fw .button-primary {
+    padding: 4px 12px;
+    border-radius: 8px;
+    gap: 8px;
+    background: #06f;
+    border-color: #06f;
+    min-height: 34px;
+    line-height: 19px;
+    display: inline-flex
+}
+
+.surelywp-plugin-fw .button-primary[type=submit] {
+    line-height: 19px;
+    box-shadow: none;
+    padding: 4px 12px 4px 34px;
+    border-radius: 8px;
+    min-height: 34px;
+    background-position: 12px center
+}
+
+.surelywp-plugin-fw table.surelywp-ric-settings-box tbody tr td .surelywp-list-tab {
+    margin-bottom: 10px
+}
+
+.surelywp-plugin-fw table.surelywp-ric-settings-box tbody tr td .form-control .surelywp-tab .surelywp-btn {
+    padding: 4px 10px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #4c5866;
+    border-radius: 6px
+}
+
+.surelywp-plugin-fw table.surelywp-ric-settings-box tbody tr td .form-control .surelywp-tab .surelywp-btn:focus {
+    box-shadow: unset;
+    outline: 0
+}
+
+.surelywp-plugin-fw .modal-btn-wrap .modal-btns a.confirm-as-vacation-delete:hover,
+.surelywp-plugin-fw .show-modal #surelywp_reset:hover {
+    opacity: 1;
+    background: #c61c1c;
+    color: #fff
+}
+
+.surelywp-plugin-fw .wp-editor-wrap .mce-toolbar .mce-ico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px
+}
+
+.surelywp-plugin-fw .wp-editor-wrap button i.mce-ico:before {
+    content: "";
+    width: 28px;
+    height: 28px;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.surelywp-plugin-fw .wp-editor-wrap button i.mce-i-bold:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cpath d='M16.5345 13.4444C17.0965 12.7921 17.4068 11.9604 17.4095 11.0994C17.4089 10.6172 17.3132 10.1398 17.1279 9.69466C16.9426 9.2495 16.6713 8.84527 16.3295 8.50511C15.9877 8.16496 15.5822 7.89557 15.1361 7.71237C14.6901 7.52917 14.2123 7.43576 13.7301 7.43749H9.57385C9.46109 7.42925 9.34784 7.44435 9.24117 7.48184C9.13451 7.51933 9.03672 7.57841 8.95391 7.65539C8.8711 7.73236 8.80505 7.82559 8.75988 7.92924C8.71472 8.03289 8.69141 8.14474 8.69141 8.2578C8.69141 8.37087 8.71472 8.48271 8.75988 8.58636C8.80505 8.69002 8.8711 8.78324 8.95391 8.86022C9.03672 8.9372 9.13451 8.99628 9.24117 9.03377C9.34784 9.07126 9.46109 9.08636 9.57385 9.07812H9.62635V18.8125H9.57385C9.46109 18.8042 9.34784 18.8193 9.24117 18.8568C9.13451 18.8943 9.03672 18.9534 8.95391 19.0304C8.8711 19.1074 8.80505 19.2006 8.75988 19.3042C8.71472 19.4079 8.69141 19.5197 8.69141 19.6328C8.69141 19.7459 8.71472 19.8577 8.75988 19.9614C8.80505 20.065 8.8711 20.1582 8.95391 20.2352C9.03672 20.3122 9.13451 20.3713 9.24117 20.4088C9.34784 20.4463 9.46109 20.4614 9.57385 20.4531H15.0426C15.8789 20.45 16.689 20.1608 17.3381 19.6335C17.9872 19.1061 18.4362 18.3725 18.6106 17.5546C18.7849 16.7366 18.674 15.8836 18.2963 15.1375C17.9186 14.3913 17.2969 13.7969 16.5345 13.4531V13.4444ZM13.7301 9.06937C14.2505 9.09357 14.7415 9.31732 15.1012 9.69414C15.4609 10.071 15.6616 10.5719 15.6616 11.0928C15.6616 11.6137 15.4609 12.1146 15.1012 12.4915C14.7415 12.8683 14.2505 13.092 13.7301 13.1162H11.267V9.07812L13.7301 9.06937ZM15.0426 18.7994H11.267V14.7656H15.0426C15.308 14.7656 15.5709 14.8179 15.8161 14.9195C16.0613 15.0211 16.2842 15.1699 16.4718 15.3576C16.6595 15.5453 16.8084 15.7681 16.91 16.0134C17.0116 16.2586 17.0639 16.5214 17.0639 16.7869C17.0639 17.0523 17.0116 17.3151 16.91 17.5604C16.8084 17.8056 16.6595 18.0284 16.4718 18.2161C16.2842 18.4038 16.0613 18.5527 15.8161 18.6543C15.5709 18.7558 15.308 18.8081 15.0426 18.8081V18.7994Z' fill='%231D2327'/%3E%3C/svg%3E")
+}
+
+.surelywp-plugin-fw .wp-editor-wrap button i.mce-i-undo:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cpath d='M21.9431 14.7224C21.9431 17.1139 20.847 19.3559 18.9537 20.8505C18.8043 20.9502 18.6548 21 18.5053 21C18.3559 21 18.0569 20.9004 17.9075 20.7011C17.6584 20.4021 17.7082 19.9039 18.0569 19.6548C19.6014 18.4591 20.4982 16.6655 20.4982 14.7224C20.4982 11.2847 17.7082 8.49466 14.2705 8.49466C10.8327 8.49466 9.88612 9.83986 8.88968 11.9822H10.2847C10.6833 11.9822 11.032 12.331 11.032 12.7295C11.032 13.1281 10.6833 13.4769 10.2847 13.4769H6.74733C6.34875 13.4769 6 13.1281 6 12.7295V9.24199C6 8.84342 6.34875 8.49466 6.74733 8.49466C7.14591 8.49466 7.49466 8.84342 7.49466 9.24199V11.2847C8.74021 8.64413 11.2811 7 14.2206 7C18.5053 7 21.9431 10.4377 21.9431 14.7224Z' fill='%231D2327'/%3E%3C/svg%3E")
+}
+
+.surelywp-plugin-fw .wp-editor-wrap button i.mce-i-redo:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cpath d='M6 14.7224C6 17.1139 7.09609 19.3559 8.98932 20.8505C9.13879 20.9502 9.28826 21 9.43772 21C9.58719 21 9.88612 20.9004 10.0356 20.7011C10.2847 20.4021 10.2349 19.9039 9.88612 19.6548C8.34164 18.4591 7.44484 16.6655 7.44484 14.7224C7.44484 11.2847 10.2349 8.49466 13.6726 8.49466C17.1103 8.49466 18.0569 9.83986 19.0534 11.9822H17.6584C17.2598 11.9822 16.911 12.331 16.911 12.7295C16.911 13.1281 17.2598 13.4769 17.6584 13.4769H21.1459C21.5445 13.4769 21.8932 13.1281 21.8932 12.7295V9.24199C21.8932 8.84342 21.5445 8.49466 21.1459 8.49466C20.7473 8.49466 20.3986 8.84342 20.3986 9.24199V11.2847C19.2028 8.64413 16.6619 7 13.7224 7C9.43772 7 6 10.4377 6 14.7224Z' fill='%231D2327'/%3E%3C/svg%3E")
+}
+
+.surelywp-plugin-fw .wp-editor-wrap button i.mce-i-underline:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cpath d='M13.8108 17.65C12.6156 17.6489 11.4696 17.1739 10.6241 16.3292C9.77864 15.4845 9.30261 14.3389 9.30041 13.1438V7.77941C9.2926 7.67256 9.30691 7.56525 9.34243 7.46417C9.37796 7.3631 9.43394 7.27044 9.50688 7.19197C9.57982 7.1135 9.66816 7.05092 9.76637 7.00812C9.86459 6.96533 9.97057 6.94324 10.0777 6.94324C10.1848 6.94324 10.2908 6.96533 10.389 7.00812C10.4873 7.05092 10.5756 7.1135 10.6485 7.19197C10.7215 7.27044 10.7775 7.3631 10.813 7.46417C10.8485 7.56525 10.8628 7.67256 10.855 7.77941V13.1438C10.8482 13.5336 10.9201 13.9208 11.0663 14.2822C11.2125 14.6436 11.4301 14.9719 11.7059 15.2474C11.9818 15.5229 12.3104 15.74 12.672 15.8857C13.0337 16.0314 13.421 16.1027 13.8108 16.0954C14.2003 16.1021 14.5871 16.0304 14.9482 15.8844C15.3094 15.7385 15.6375 15.5213 15.9129 15.2459C16.1884 14.9705 16.4055 14.6424 16.5515 14.2812C16.6974 13.9201 16.7692 13.5332 16.7624 13.1438V7.77941C16.7546 7.67256 16.7689 7.56525 16.8044 7.46417C16.84 7.3631 16.896 7.27044 16.9689 7.19197C17.0418 7.1135 17.1302 7.05092 17.2284 7.00812C17.3266 6.96533 17.4326 6.94324 17.5397 6.94324C17.6469 6.94324 17.7528 6.96533 17.8511 7.00812C17.9493 7.05092 18.0376 7.1135 18.1105 7.19197C18.1835 7.27044 18.2395 7.3631 18.275 7.46417C18.3105 7.56525 18.3248 7.67256 18.317 7.77941V13.1438C18.3148 14.3382 17.8394 15.4831 16.9947 16.3277C16.1501 17.1723 15.0052 17.6478 13.8108 17.65Z' fill='%231D2327'/%3E%3Cpath d='M18.7855 20.0001H8.83617C8.72932 20.0079 8.62201 19.9936 8.52094 19.9581C8.41986 19.9226 8.3272 19.8666 8.24873 19.7937C8.17027 19.7207 8.10768 19.6324 8.06488 19.5342C8.02209 19.4359 8 19.33 8 19.2228C8 19.1157 8.02209 19.0097 8.06488 18.9115C8.10768 18.8133 8.17027 18.7249 8.24873 18.652C8.3272 18.5791 8.41986 18.5231 8.52094 18.4876C8.62201 18.452 8.72932 18.4377 8.83617 18.4455H18.7855C18.9819 18.4599 19.1655 18.548 19.2995 18.6922C19.4336 18.8364 19.5081 19.026 19.5081 19.2228C19.5081 19.4197 19.4336 19.6093 19.2995 19.7535C19.1655 19.8977 18.9819 19.9858 18.7855 20.0001Z' fill='%231D2327'/%3E%3C/svg%3E")
+}
+
+.surelywp-plugin-fw .wp-editor-wrap button i.mce-i-italic:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cpath d='M19.5799 8.25563C19.5799 8.47377 19.4933 8.68297 19.339 8.83722C19.1848 8.99147 18.9756 9.07812 18.7574 9.07812H16.7799L12.8731 19.25H14.3824C14.4952 19.2418 14.6085 19.2569 14.7151 19.2943C14.8218 19.3318 14.9196 19.3909 15.0024 19.4679C15.0852 19.5449 15.1513 19.6381 15.1964 19.7418C15.2416 19.8454 15.2649 19.9572 15.2649 20.0703C15.2649 20.1834 15.2416 20.2952 15.1964 20.3989C15.1513 20.5025 15.0852 20.5958 15.0024 20.6727C14.9196 20.7497 14.8218 20.8088 14.7151 20.8463C14.6085 20.8838 14.4952 20.8989 14.3824 20.8906H9.13245C9.01968 20.8989 8.90643 20.8838 8.79977 20.8463C8.6931 20.8088 8.59531 20.7497 8.5125 20.6727C8.42969 20.5958 8.36364 20.5025 8.31848 20.3989C8.27331 20.2952 8.25 20.1834 8.25 20.0703C8.25 19.9572 8.27331 19.8454 8.31848 19.7418C8.36364 19.6381 8.42969 19.5449 8.5125 19.4679C8.59531 19.3909 8.6931 19.3318 8.79977 19.2943C8.90643 19.2569 9.01968 19.2418 9.13245 19.25H11.1143L15.0212 9.07812H13.5074C13.3002 9.06298 13.1064 8.96998 12.965 8.81781C12.8235 8.66564 12.7449 8.46558 12.7449 8.25781C12.7449 8.05005 12.8235 7.84998 12.965 7.69781C13.1064 7.54564 13.3002 7.45264 13.5074 7.4375H18.7574C18.9748 7.4375 19.1834 7.52355 19.3375 7.67686C19.4916 7.83016 19.5788 8.03824 19.5799 8.25563Z' fill='%231D2327'/%3E%3C/svg%3E")
+}
+
+.surelywp-plugin-fw .wp-editor-wrap button i.mce-i-bullist:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cpath d='M20.238 10.0817H11.6604C11.4534 10.0668 11.2597 9.97536 11.1184 9.8258C10.977 9.67623 10.8984 9.47959 10.8984 9.27538C10.8984 9.07118 10.977 8.87454 11.1184 8.72497C11.2597 8.57541 11.4534 8.484 11.6604 8.46912H20.238C20.4451 8.484 20.6388 8.57541 20.7801 8.72497C20.9215 8.87454 21 9.07118 21 9.27538C21 9.47959 20.9215 9.67623 20.7801 9.8258C20.6388 9.97536 20.4451 10.0668 20.238 10.0817Z' fill='%231D2327'/%3E%3Cpath d='M20.238 14.3H11.6604C11.4534 14.2852 11.2597 14.1937 11.1184 14.0442C10.977 13.8946 10.8984 13.698 10.8984 13.4938C10.8984 13.2896 10.977 13.0929 11.1184 12.9434C11.2597 12.7938 11.4534 12.7024 11.6604 12.6875H20.238C20.4451 12.7024 20.6388 12.7938 20.7801 12.9434C20.9215 13.0929 21 13.2896 21 13.4938C21 13.698 20.9215 13.8946 20.7801 14.0442C20.6388 14.1937 20.4451 14.2852 20.238 14.3Z' fill='%231D2327'/%3E%3Cpath d='M20.238 18.5184H11.6604C11.4534 18.5035 11.2597 18.4121 11.1184 18.2626C10.977 18.113 10.8984 17.9164 10.8984 17.7122C10.8984 17.5079 10.977 17.3113 11.1184 17.1617C11.2597 17.0122 11.4534 16.9208 11.6604 16.9059H20.238C20.4451 16.9208 20.6388 17.0122 20.7801 17.1617C20.9215 17.3113 21 17.5079 21 17.7122C21 17.9164 20.9215 18.113 20.7801 18.2626C20.6388 18.4121 20.4451 18.5035 20.238 18.5184Z' fill='%231D2327'/%3E%3Cpath d='M9.62312 9.29038C9.62305 9.54679 9.54529 9.79736 9.39978 10.0101C9.25426 10.2229 9.04759 10.3881 8.80614 10.4848C8.5647 10.5815 8.29944 10.6052 8.04422 10.553C7.789 10.5007 7.55541 10.3748 7.37327 10.1914C7.19112 10.0079 7.06868 9.77528 7.02158 9.52309C6.97449 9.2709 7.00486 9.01063 7.10884 8.77549C7.21282 8.54036 7.38568 8.34104 7.60535 8.20298C7.82502 8.06491 8.08154 7.99437 8.34216 8.00035C8.68468 8.00821 9.01047 8.14759 9.24985 8.38867C9.48924 8.62975 9.62321 8.9534 9.62312 9.29038Z' fill='%231D2327'/%3E%3Cpath d='M9.62312 13.496C9.62312 13.7511 9.5462 14.0005 9.40208 14.2127C9.25796 14.4248 9.05313 14.5902 8.81347 14.6878C8.57381 14.7854 8.3101 14.811 8.05569 14.7612C7.80127 14.7114 7.56757 14.5886 7.38415 14.4082C7.20072 14.2277 7.07581 13.9979 7.0252 13.7476C6.9746 13.4974 7.00057 13.238 7.09984 13.0023C7.19911 12.7666 7.36721 12.5651 7.5829 12.4233C7.79858 12.2816 8.05216 12.2059 8.31156 12.2059C8.65941 12.2059 8.99301 12.3418 9.23897 12.5838C9.48494 12.8257 9.62312 13.1538 9.62312 13.496Z' fill='%231D2327'/%3E%3Cpath d='M9.62312 17.7099C9.62312 17.9651 9.5462 18.2145 9.40208 18.4267C9.25796 18.6388 9.05313 18.8041 8.81347 18.9018C8.57381 18.9994 8.3101 19.025 8.05569 18.9752C7.80127 18.9254 7.56757 18.8026 7.38415 18.6221C7.20072 18.4417 7.07581 18.2119 7.0252 17.9616C6.9746 17.7114 7.00057 17.452 7.09984 17.2163C7.19911 16.9806 7.36721 16.7791 7.5829 16.6373C7.79858 16.4956 8.05216 16.4199 8.31156 16.4199C8.65941 16.4199 8.99301 16.5558 9.23897 16.7978C9.48494 17.0397 9.62312 17.3678 9.62312 17.7099Z' fill='%231D2327'/%3E%3C/svg%3E")
+}
+
+.surelywp-plugin-fw .wp-editor-wrap button i.mce-i-numlist:before {
+    background-image: url('../images/numbered.svg')
+}
+
+.surelywp-plugin-fw .wp-editor-wrap button i.mce-i-link:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cpath d='M10.8548 20.5C10.0119 20.5 9.21935 20.1729 8.61968 19.5732L8.42677 19.3803C7.83129 18.7848 7.5 17.9881 7.5 17.1452C7.5 16.3023 7.8271 15.5055 8.42677 14.91L10.2006 13.1361C10.4481 12.8887 10.8465 12.8887 11.0897 13.1361C11.3329 13.3835 11.3371 13.7819 11.0897 14.0252L9.31581 15.799C8.95516 16.1597 8.75806 16.6377 8.75806 17.1452C8.75806 17.6526 8.95516 18.1306 9.31581 18.4913L9.50871 18.6842C9.86935 19.0448 10.3474 19.2419 10.8548 19.2419C11.3623 19.2419 11.8403 19.0448 12.201 18.6842L13.9748 16.9103C14.2223 16.6629 14.6206 16.6629 14.8639 16.9103C15.1071 17.1577 15.1113 17.5561 14.8639 17.7994L13.09 19.5732C12.4945 20.1687 11.6977 20.5 10.8548 20.5Z' fill='%231D2327'/%3E%3Cpath d='M17.3558 15.0484C17.1965 15.0484 17.0329 14.9855 16.9113 14.8639C16.6639 14.6165 16.6639 14.2181 16.9113 13.9748L18.6852 12.201C19.0458 11.8403 19.2429 11.3623 19.2429 10.8548C19.2429 10.3474 19.0458 9.86935 18.6852 9.50871L18.4923 9.31581C18.1316 8.95516 17.6536 8.75806 17.1462 8.75806C16.6387 8.75806 16.1607 8.95516 15.8 9.31581L14.0262 11.0897C13.7787 11.3371 13.3803 11.3371 13.1371 11.0897C12.8939 10.8423 12.8897 10.4439 13.1371 10.2006L14.911 8.42677C15.5065 7.83129 16.3032 7.5 17.1462 7.5C17.9891 7.5 18.7816 7.8271 19.3813 8.42677L19.5742 8.61968C20.1697 9.21516 20.501 10.0119 20.501 10.8548C20.501 11.6977 20.1739 12.4945 19.5742 13.09L17.8003 14.8639C17.6787 14.9855 17.5152 15.0484 17.3558 15.0484Z' fill='%231D2327'/%3E%3Cpath d='M11.9035 16.7259C11.7442 16.7259 11.5806 16.663 11.459 16.5413C11.2116 16.2939 11.2116 15.8955 11.459 15.6523L15.6526 11.4588C15.9 11.2113 16.2984 11.2113 16.5416 11.4588C16.789 11.7062 16.789 12.1046 16.5416 12.3478L12.348 16.5413C12.2264 16.663 12.0629 16.7259 11.9035 16.7259Z' fill='%231D2327'/%3E%3C/svg%3E")
+}
+
+.surelywp-plugin-fw .mce-top-part::before {
+    box-shadow: unset
+}
+
+@media (max-width:767px) {
+    .surelywp-plugin-fw .surelywp-body-content-header {
+        padding: 10px 20px;
+        height: auto;
+        gap: 10px
+    }
+
+    .surelywp-plugin-fw .surelywp-body-content-header.header-button-wrap {
+        flex-wrap: wrap;
+        margin-top: 5px
+    }
+}
+
+@keyframes surelywp-plugin-fw-your-store-tools-pulse-active {
+    0% {
+        box-shadow: 0 0 0 0 rgba(148, 218, 37, .7)
+    }
+
+    70% {
+        box-shadow: 0 0 0 8px rgba(148, 218, 37, 0)
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(148, 218, 37, 0)
+    }
+}

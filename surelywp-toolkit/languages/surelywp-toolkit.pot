@@ -1,0 +1,3775 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Toolkit For SureCart\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-10 15:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.7\n"
+"X-Domain: surelywp-toolkit"
+
+#: assets/js/surelywp-tk-backend.js:20
+msgid " drag and drop"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:70
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:100
+msgid " Occurs when a subscription renews"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:70
+msgid " Occurs when a subscription's status changes to active"
+msgstr ""
+
+#: assets/js/surelywp-tk-backend.js:20
+msgid " Only JSON File is allowed"
+msgstr ""
+
+#. %1$s is the price name, %2$s is the formatted price.
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-price-desc.php:71
+#, php-format
+msgid "%1$s %2$s Price Description"
+msgstr ""
+
+#. 1: Opening HTML for switch back button, 2: Username to switch back to, 3: Closing HTML for switch back button.
+#: includes/user-switching/class-surelywp-tk-user-switching.php:840
+#, php-format
+msgid "%1$s Switch Back To %2$s %3$s"
+msgstr ""
+
+#. %s: Product name
+#: includes/lead-magnets/class-surelywp-tk-lm.php:432
+#, php-format
+msgid "%s is not a lead magnet product"
+msgstr ""
+
+#. %1$s is the price name, %2$s is the formatted price.
+#: addons-options/lead-magnets-settings.php:246
+#, php-format
+msgid "%s Label"
+msgstr ""
+
+#. %s: user role name.
+#: addons-options/misc-settings.php:145
+#, php-format
+msgid "%s Login Redirect URL"
+msgstr ""
+
+#. %1$s is the price name, %2$s is the formatted price.
+#: addons-options/lead-magnets-settings.php:262
+#, php-format
+msgid "%s Text"
+msgstr ""
+
+#. %s: user role key.
+#: addons-options/misc-settings.php:142
+#, php-format
+msgid "%s-login-redirection"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:919
+msgid "Abandoned"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:252 
+#: includes/class-surelywp-toolkit-admin.php:257 
+#: addons-options/addons-settings.php:76
+msgid "Activate"
+msgstr ""
+
+#: addons-options/addons-settings.php:40
+msgid "Active"
+msgstr ""
+
+#: addons-options/fluent-crm-settings.php:37
+msgid "Add FluentCRM Contact Profile Button On Customers"
+msgstr ""
+
+#: addons-options/fluent-crm-settings.php:49
+msgid "Add FluentCRM Contact Profile Button On Orders"
+msgstr ""
+
+#: addons-options/fluent-crm-settings.php:61
+msgid "Add FluentCRM Contact Profile Button On Subscriptions"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:281
+msgid "Add New Tab"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:92
+msgid "Add New Vacation"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:105
+msgid "Add User Switching Button In Customer Details Page"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:268
+msgid "Add User Switching Button In Inquiry Details Page"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:135
+msgid "Add User Switching Button In Order Details Page"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:199
+msgid "Add User Switching Button In Service Details Page"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:165
+msgid "Add User Switching Button In Subscription Details Page"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:234
+msgid "Add User Switching Button In Support Ticket Details Page"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:63
+msgid "Add User Switching Link In All Users List"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:93
+msgid "Add User Switching Link In Customer List"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:75
+msgid "Add User Switching Link In Edit User Profile Page"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:256
+msgid "Add User Switching Link In Inquiries List"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:123
+msgid "Add User Switching Link In Orders List"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:187
+msgid "Add User Switching Link In Services List"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:153
+msgid "Add User Switching Link In Subscriptions List"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:222
+msgid "Add User Switching Link In Support Tickets List"
+msgstr ""
+
+#: addons-options/overview.php:45
+msgid "Add Your License Key"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:92
+msgid "add-new"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:281
+msgid "add_new"
+msgstr ""
+
+#: addons-options/misc-settings.php:256
+msgid "Admin Bar Links"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:512
+msgid "Admin Columns"
+msgstr ""
+
+#: addons-options/misc-settings.php:224
+msgid "Admin Tools"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:467 
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:477 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:144 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:154
+msgid "After"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:308
+msgid "After Add To Cart And Buy Now Buttons"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:135 
+#: addons-options/lead-magnets-settings.php:144 
+#: addons-options/vacation-mode-settings.php:304
+msgid "After Description"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:298
+msgid "After Price"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:300
+msgid "After Pricing Options"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:306
+msgid "After Quantity Selector"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:134 
+#: addons-options/lead-magnets-settings.php:145 
+#: addons-options/vacation-mode-settings.php:302
+msgid "After Title"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:61 
+#: addons-options/vacation-mode-settings.php:176
+msgid "All Products"
+msgstr ""
+
+#: assets/js/surelywp-tk-backend.js:50
+msgid "All Settings Of Toolkit Plugin Imported Successfully."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:32
+msgid "Allowed User Roles For User Switching"
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:290 
+#: includes/class-surelywp-toolkit.php:545 
+#: includes/lead-magnets/class-surelywp-tk-lm-ajax-handler.php:417
+msgid ""
+"An email will be sent to the provided address to confirm your subscription "
+"and complete your download."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:102
+msgid "Are you sure you want to delete this vacation configuration?"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:400
+msgid ""
+"Are you sure you want to retry the payment? This will attempt to charge the "
+"customer."
+msgstr ""
+
+#: blocks/lead-magnets/surelywp-tk-lm-button/src/edit.js:45
+msgid "Attributes"
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm.php:1060
+msgid "Back"
+msgstr ""
+
+#: templates/surecart-customer-template/template-surecart-dashboard.php:93
+msgid "Back Home"
+msgstr ""
+
+#: addons-options/misc-settings.php:179
+msgid "Back Home Button Redirection"
+msgstr ""
+
+#: addons-options/overview.php:129
+msgid ""
+"Be sure to  check out our other helpful addons for SureCart admins and store "
+"owners!"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:466 
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:476 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:143 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:153
+msgid "Before"
+msgstr ""
+
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-external-products.php:38
+msgid "Button Text"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:217 
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-external-products.php:23
+msgid "Buy Now"
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:18
+msgid ""
+"By default, SureCart hides Draft products from both the shop and product "
+"pages. If a product is marked Unavailable for Purchase, SureCart will also "
+"hide the product from the shop and return a 404 error on the product page, "
+"even if the product is published. These rules allow you to override that "
+"behavior and show or hide products to specific audiences such as admins or "
+"customers."
+msgstr ""
+
+#: addons-options/settings-options.php:29 
+#: addons-options/vacation-mode-settings.php:108
+msgid "Cancel"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:956
+msgid "Cancellations"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:532
+msgid "Changelog"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:259
+msgid "Checkout process synchronization has started in the background"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:45
+msgid "Choose enable or disable the lead magnets feature."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:145
+msgid "Choose enable or disable this vacation."
+msgstr ""
+
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-price-desc.php:46
+msgid "Choose how price descriptions are shown."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:118
+msgid ""
+"Choose how the subscription form is displayed on the product page. Select "
+"Popup Form to show a button that opens the form in a popup. Select Inline "
+"Form to display the form directly on the page."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:58
+msgid "Choose Products For Lead Magnets"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:173
+msgid "Choose Products For Vacation"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:409
+msgid "Choose the type of schedule for this vacation."
+msgstr ""
+
+#: addons-options/misc-settings.php:274
+msgid ""
+"Choose to add a link in the WordPress admin bar to open the SureCart app in "
+"a new tab."
+msgstr ""
+
+#: addons-options/misc-settings.php:259
+msgid "Choose to add the SureCart menu to the WordPress admin bar."
+msgstr ""
+
+#: templates/lead-magnets/blocks/admin/product-lead-magnet-block.php:32
+msgid ""
+"Choose to convert this product into a lead magnet. Note: Only free products "
+"with a single pricing option set to zero can be used as lead magnets. The "
+"Lead Magnets feature must be enabled in the addon settings and set to "
+"Specific Products."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:373
+msgid ""
+"Choose to disable the entire checkout process when Vacation Mode is enabled. "
+"If \"Choose Products For Vacation\" is set to all products, customers "
+"attempting to access the checkout page will be redirected to the home page. "
+"When Vacation Mode is applied to specific products or collections, purchases "
+"for those items are disabled. Customers cannot add them to the cart, and "
+"clicking the \"Buy Now\" button redirects them to the home page. This "
+"feature ensures that purchases are paused in line with your Vacation Mode "
+"settings."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:277
+msgid ""
+"Choose to display a message on all SureCart product pages for selected "
+"products whe the vacation is active."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:265
+msgid ""
+"Choose to display a sitewide banner across the top of your website when the "
+"vacation is active."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:17
+msgid "Choose to enable or disable the using switching features."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:356
+msgid ""
+"Choose to hide the add to cart button and buy now button on SureCart product "
+"pages when vacation mode is enabled."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:340
+msgid ""
+"Choose to require users to receive a verification email and click a link in "
+"order to complete their download. The verification email will send "
+"immediately after submitting the email optin form. This works as a double-"
+"optin method to confirm adding the customer to your email marketing list "
+"(which you can do using SureTriggers)."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:76
+msgid ""
+"Choose to show or hide a using switching button in each WordPress user edit "
+"profile page."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:106
+msgid ""
+"Choose to show or hide a using switching button in individual customer "
+"details pages."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:269
+msgid ""
+"Choose to show or hide a using switching button in individual inquiry pages "
+"in the Messaging System in the B2B for SureCart addon."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:136
+msgid ""
+"Choose to show or hide a using switching button in individual order details "
+"pages."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:200
+msgid ""
+"Choose to show or hide a using switching button in individual services pages."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:166
+msgid ""
+"Choose to show or hide a using switching button in individual subscription "
+"details pages."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:235
+msgid ""
+"Choose to show or hide a using switching button in individual support ticket "
+"pages."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:94
+msgid ""
+"Choose to show or hide using switching links on each customer in the "
+"customer list page."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:257
+msgid ""
+"Choose to show or hide using switching links on each inquiry in the "
+"inquiries list page in the Messaging System in the B2B for SureCart addon."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:124
+msgid ""
+"Choose to show or hide using switching links on each order in the orders "
+"list page."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:188
+msgid ""
+"Choose to show or hide using switching links on each service in the services "
+"list page."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:154
+msgid ""
+"Choose to show or hide using switching links on each subscription in the "
+"subscriptions list page."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:223
+msgid ""
+"Choose to show or hide using switching links on each ticket in the support "
+"tickes list page."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:64
+msgid ""
+"Choose to show or hide using switching links on each user in the WordPress "
+"All Users list."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:142
+msgid ""
+"Choose where to display the inline subscription form on the product page."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:132
+msgid ""
+"Choose where to display the popup subscription button on the product page."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:295
+msgid ""
+"Choose where to show the vacation notice on default SureCart product pages "
+"based on relative position to the other elements."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:223
+msgid ""
+"Choose whether this tab should be visible or hidden for the selected users "
+"based on their SureMembers access group."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:222
+msgid ""
+"Choose whether this tab should be visible or hidden for the selected users "
+"based on their user role."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:395
+msgid ""
+"Choose whether to add a \"Lead Magnets\" tab in the SureCart Customer "
+"Dashboard. When enabled, customers will see a dedicated tab where they can "
+"view any lead magnet downloads associated with their account. Each available "
+"lead magnet includes a “Download” button just like in the SureCart interface."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:148
+msgid ""
+"Choose whether to display content directly in the tab or turn the tab into a "
+"link that redirects to another page."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:124
+msgid "Choose whether to display this tab in the Customer Dashboard menu."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:214
+msgid ""
+"Choose whether to hide the tab based on user role or SureMembers Access "
+"Group. The SureMembers Access Group option will only be available if "
+"SureMembers is installed and active."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:174
+msgid "Choose which products to include in this vacation."
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:71
+msgid ""
+"Choose who can access the product page URL when the product is Published and "
+"Available For Purchase. SureCart loads the page normally for both admins and "
+"customers in this state."
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:83
+msgid ""
+"Choose who can access the product page URL when the product is Published but "
+"Unavailable For Purchase. SureCart shows a 404 to customers in this case, "
+"but admins can still view the page."
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:47
+msgid ""
+"Choose who can access the product page URL when the product is set to Draft "
+"and Available For Purchase. SureCart returns a 404 for customers by default, "
+"but admins can still access the page."
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:59
+msgid ""
+"Choose who can access the product page URL when the product is set to Draft "
+"and Unavailable For Purchase. This also results in a 404 for customers by "
+"default, though admins can view the page."
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:104
+msgid ""
+"Choose who can see the product in the shop or product list pages when it is "
+"set to Draft and Available For Purchase. By default, SureCart hides products "
+"in this state from all users."
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:116
+msgid ""
+"Choose who can see the product in the shop or product list pages when it is "
+"set to Draft and Unavailable For Purchase. SureCart normally hides these "
+"products completely."
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:128
+msgid ""
+"Choose who can see the product in the shop or product list pages when it is "
+"set to Published and Available For Purchase. This is the default live state "
+"and is normally visible to all users."
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:140
+msgid ""
+"Choose who can see the product in the shop or product list pages when it is "
+"set to Published and Unavailable For Purchase. SureCart hides products in "
+"this state by default, even though they are published."
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm.php:917
+msgid "Click Here To Verify"
+msgstr ""
+
+#: assets/js/surelywp-tk-backend.js:20
+msgid "Click to upload"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:968
+msgid "Clicks"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:228 
+#: addons-options/dashboard-tabs-settings.php:96 
+#: addons-options/dashboard-tabs-settings.php:104 
+#: addons-options/admin-columns-settings.php:287
+msgid "close"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:181 
+#: includes/misc-settings/class-surelywp-tk-misc.php:932
+msgid "Collections"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:303
+msgid "Column Label"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:154
+msgid "Commission Amount"
+msgstr ""
+
+#: addons-options/settings-options.php:30
+msgid "Confirm Reset"
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:282 
+#: includes/lead-magnets/class-surelywp-tk-lm-admin.php:159
+msgid "Consent Checkbox"
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm-ajax-handler.php:280
+msgid "Consent Checkbox Must Be Checked"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:274
+msgid "Consent Checkbox Privacy Policy URL (Optional)"
+msgstr ""
+
+#: addons-options/overview.php:112
+msgid "Contact Us"
+msgstr ""
+
+#: includes/user-switching/class-surelywp-tk-user-switching.php:608 
+#: includes/user-switching/class-surelywp-tk-user-switching.php:613
+msgid "Could not switch users."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:58
+msgid "Custom Customer Dashboard Tabs"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:34
+msgid "Customer Dashboard"
+msgstr ""
+
+#: addons-options/misc-settings.php:50
+msgid "Customer Dashboard Menu Text"
+msgstr ""
+
+#: addons-options/misc-settings.php:65
+msgid "Customer Dashboard Menu Text When Logged Out"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:392
+msgid "Customer Dashboard Tab"
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:460
+msgid "Customer Login"
+msgstr ""
+
+#: addons-options/misc-settings.php:89
+msgid "Customer Login Redirect URL"
+msgstr ""
+
+#: addons-options/misc-settings.php:170
+msgid "Customer Logout Redirect URL"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:91
+msgid "Customers"
+msgstr ""
+
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-external-products.php:38
+msgid "Customize the button text displayed on the product page."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:11 
+#: addons-options/dashboard-tabs-settings.php:13 
+#: includes/lead-magnets/class-surelywp-tk-lm.php:179
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:517
+msgid "Dashboard Tabs"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:78 
+#: addons-options/admin-columns-settings.php:208
+msgid "Date"
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm.php:877
+msgid ""
+"Dear {customer_name},\n"
+"You have opted in to receive a free download of the {product_name} from "
+"{website_name}. Please click the following link to confirm your subscription "
+"and complete your download.\n"
+"\n"
+"{verification_link}\n"
+"\n"
+"Enjoy,\n"
+"The {website_name} Team"
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:292
+msgid ""
+"Dear {customer_name},\n"
+"You have opted in to receive a free download of the {product_name} from "
+"{website_name}. Please click the following link to confirm your subscription "
+"and complete your download.\n"
+"\n"
+"{verification_link}\n"
+"\n"
+"Enjoy,\n"
+"The {website_name} Team\n"
+")"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:109
+msgid "Delete Vacation"
+msgstr ""
+
+#: addons-options/fluent-crm-settings.php:14
+msgid "Direct FluentCRM/SureCart Integration"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:372
+msgid "Disable Checkout During Vacation Mode"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:150
+msgid "Display Content"
+msgstr ""
+
+#. %1$s is the column heading, %2$s is the column type (order/product).
+#: addons-options/admin-columns-settings.php:318
+#, php-format
+msgid "Display the %1$s column in the SureCart %2$ss list."
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:334
+msgid ""
+"Display the product featured image in the product name column in the "
+"SureCart products list."
+msgstr ""
+
+#: addons-options/settings-options.php:108
+msgid "Documantation"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:424 
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:490 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:101 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:167
+msgid "Does not includes (in any)"
+msgstr ""
+
+#: includes/admin-columns/class-surelywp-tk-admin-columns.php:145
+msgid "Download"
+msgstr ""
+
+#: addons-options/import-export-tab.php:17
+msgid ""
+"Download a file containing all of your current plugin settings. This file "
+"can be used as a backup or as a template to apply the same configuration on "
+"another site."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:39 
+#: addons-options/dashboard-tabs-settings.php:41 
+#: includes/lead-magnets/class-surelywp-tk-lm.php:111 
+#: includes/lead-magnets/class-surelywp-tk-lm.php:1018 
+#: includes/lead-magnets/class-surelywp-tk-lm.php:1076 
+#: includes/lead-magnets/class-surelywp-tk-lm.php:1083
+msgid "Downloads"
+msgstr ""
+
+#: addons-options/misc-settings.php:329
+msgid "Downloads List"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:217
+msgid "downloads not found"
+msgstr ""
+
+#: addons-options/misc-settings.php:331
+msgid "Downloads Shortcode"
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:46 
+#: addons-options/product-visibility-settings.php:103
+msgid "Draft + Available For Purchase"
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:58 
+#: addons-options/product-visibility-settings.php:115
+msgid "Draft + Unavailable For Purchase"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:236 
+#: addons-options/dashboard-tabs-settings.php:107 
+#: addons-options/admin-columns-settings.php:296
+msgid "drag"
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:262 
+#: includes/class-surelywp-toolkit.php:263 
+#: includes/lead-magnets/class-surelywp-tk-lm-admin.php:135 
+#: includes/lead-magnets/class-surelywp-tk-lm-admin.php:136 
+#: blocks/lead-magnets/surelywp-tk-lm-button/src/edit.js:57
+msgid "Email Address"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:352
+msgid "Email Verification Message"
+msgstr ""
+
+#: addons-options/misc-settings.php:76
+msgid "Enable Custom Login Redirect"
+msgstr ""
+
+#: addons-options/misc-settings.php:157
+msgid "Enable Custom Logout Redirect"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:237
+msgid "Enable Custom Order Columns Feature"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:252
+msgid "Enable Custom Product Columns Feature"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:60
+msgid "Enable Custom Tabs"
+msgstr ""
+
+#: addons-options/misc-settings.php:16
+msgid "Enable External/Affiliate Products"
+msgstr ""
+
+#: addons-options/fluent-crm-settings.php:16
+msgid "Enable FluentCRM/SureCart Integration"
+msgstr ""
+
+#: templates/lead-magnets/blocks/admin/product-lead-magnet-block.php:32
+msgid "Enable Lead Magnet"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:44
+msgid "Enable Lead Magnets"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:394
+msgid "Enable Lead Magnets Tab In Customer Dashboard"
+msgstr ""
+
+#. %s is the field name.
+#: addons-options/lead-magnets-settings.php:290
+#, php-format
+msgid "Enable or disable the %s field in the subscription form."
+msgstr ""
+
+#: addons-options/misc-settings.php:34
+msgid "Enable Price Descriptions"
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:15
+msgid "Enable Product Visibility Override Rules"
+msgstr ""
+
+#: addons-options/misc-settings.php:239
+msgid "Enable Retry Payment Option For Failed Orders"
+msgstr ""
+
+#: addons-options/misc-settings.php:94
+msgid "Enable Role Based Login Redirect"
+msgstr ""
+
+#: addons-options/fluent-crm-settings.php:17
+msgid ""
+"Enable the advanced integration between Toolkit for SureCart and FluentCRM. "
+"This includes the ability to filter contacts, create dynamic segments, and "
+"build automation conditions based on SureCart data such as purchased "
+"products, product variants, price types, product collections, total order "
+"count, total order value, first and last order dates, and used coupons. Once "
+"enabled, these options will appear throughout FluentCRM, including in "
+"Contact Filters, Custom Segments, and Automation Check Conditions."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:61
+msgid ""
+"Enable this feature to customize the SureCart Customer Dashboard tabs. You "
+"can edit, rearrange, or hide columns to suit your needs."
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:238
+msgid ""
+"Enable this feature to customize the SureCart orders list columns. You can "
+"edit, rearrange, or hide columns to suit your needs."
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:253
+msgid ""
+"Enable this feature to customize the SureCart product list columns. You can "
+"edit, rearrange, or hide columns to suit your needs."
+msgstr ""
+
+#: addons-options/misc-settings.php:53
+msgid ""
+"Enable this feature to rename the Customer Dashboard menu text when users "
+"are logged out. To set it up, simply add the CSS class surelywp-rename-menu "
+"to the desired WordPress navigation menu item. This class will replace the "
+"default menu text with the custom text you enter in the input field below, "
+"visible only when users are logged out."
+msgstr ""
+
+#: addons-options/misc-settings.php:336
+msgid ""
+"Enable this option to enhance the customer-facing download list in the "
+"SureCart Customer Dashboard by displaying image previews for image file "
+"downloads. By default, SureCart shows a generic file-type icon for each file."
+" When this option is enabled, actual image thumbnails will be shown instead "
+"for supported image file types, providing a more visual and helpful layout."
+msgstr ""
+
+#: addons-options/misc-settings.php:348
+msgid ""
+"Enable this option to enhance the download list in the SureCart product "
+"editor by replacing the default file-type icons with actual image thumbnails "
+"for image-based files. This helps store owners more easily identify image "
+"downloads at a glance when managing files in the admin area."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:201
+msgid ""
+"Enable this option to hide the tab for users who have a specific user role "
+"or belong to an active SureMembers Access Group."
+msgstr ""
+
+#: addons-options/misc-settings.php:182
+msgid ""
+"Enable this setting to activate a custom redirect URL for the “Back Home” "
+"button in the SureCart Customer Dashboard."
+msgstr ""
+
+#: addons-options/misc-settings.php:77
+msgid ""
+"Enable this setting to activate custom login redirects for your SureCart "
+"store. When enabled, customers logging into the SureCart Customer Dashboard "
+"will be redirected to your specified URL."
+msgstr ""
+
+#: addons-options/misc-settings.php:158
+msgid ""
+"Enable this setting to activate custom logout redirects for your SureCart "
+"store. When enabled, customers logging out of the SureCart Customer "
+"Dashboard will be redirected to your specified URL."
+msgstr ""
+
+#: addons-options/misc-settings.php:95
+msgid ""
+"Enable this setting to activate user role-based redirects for your SureCart "
+"store. When enabled, customers logging into the SureCart Customer Dashboard "
+"will be redirected to the specified URL based on their WordPress user role. "
+"This setting takes priority over custom login redirections."
+msgstr ""
+
+#: addons-options/fluent-crm-settings.php:38
+msgid ""
+"Enable this setting to add a button in individual customer details pages to "
+"open the FluentCRM contact profile page."
+msgstr ""
+
+#: addons-options/fluent-crm-settings.php:50
+msgid ""
+"Enable this setting to add a button in individual order details pages to "
+"open the FluentCRM contact profile page."
+msgstr ""
+
+#: addons-options/fluent-crm-settings.php:62
+msgid ""
+"Enable this setting to add a button in individual subscription details pages "
+"to open the FluentCRM contact profile page."
+msgstr ""
+
+#: addons-options/misc-settings.php:207
+msgid ""
+"Enable this setting to add an \"Order Again\" button on each individual "
+"order in the SureCart Customer Dashboard. When clicked, it will initiate the "
+"\"Buy Now\" feature, placing the same product configuration into the "
+"checkout for quick reordering."
+msgstr ""
+
+#: addons-options/misc-settings.php:17
+msgid ""
+"Enable this setting to add external product options to individual SureCart "
+"product pages."
+msgstr ""
+
+#: addons-options/misc-settings.php:35
+msgid ""
+"Enable this setting to add price description options to individual SureCart "
+"product pages."
+msgstr ""
+
+#: addons-options/misc-settings.php:227
+msgid ""
+"Enable this setting to display a \"Recovered\" badge on the order details "
+"page for any orders recovered from the abandoned checkout system. This "
+"provides clear visibility that the order was completed through the recovery "
+"process."
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:16
+msgid ""
+"Enable this setting to manually control who can see the shop and product "
+"pages based on each product's current Publish Status and Availability "
+"setting in SureCart. These visibility rules apply to all products except "
+"those managed by a Scheduled Product window, which have their own separate "
+"visibility options."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:16
+msgid "Enable User Switching"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:144
+msgid "Enable Vacation"
+msgstr ""
+
+#: addons-options/misc-settings.php:181
+msgid "Enable “Back Home” Custom Redirect"
+msgstr ""
+
+#: addons-options/misc-settings.php:240
+msgid ""
+"Enabling this option adds a \"Retry Payment\" action to the Actions menu of "
+"any order with a failed payment, allowing admins to manually retry the "
+"payment without navigating to the associated subscription."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:137
+msgid "Enter a custom name for this tab in the Customer Dashboard menu."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:133
+msgid "Enter a title for the vacation."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:408
+msgid ""
+"Enter custom text to display in the Customer Dashboard menu for the Lead "
+"Magnets tab. "
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:353
+msgid ""
+"Enter custom text you want to show in the subscription form to let them know "
+"they will receive an email to verify their download."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:363
+msgid ""
+"Enter custom text you want to use for the verification email body. You can "
+"optionally use variables like {customer_name}, {product_name}, and "
+"{website_name} to personalize the message by automatically inserting real "
+"values."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:358 
+#: includes/lead-magnets/class-surelywp-tk-lm.php:871
+msgid "Enter custom text you want to use for the verification email subject."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:161
+msgid ""
+"Enter the content to display inside the tab. You can use plain text, custom "
+"HTML, or shortcodes to dynamically pull in data."
+msgstr ""
+
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-external-products.php:37
+msgid "Enter the external or affiliate product link."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:169 
+#: addons-options/lead-magnets-settings.php:174
+msgid "Enter the heading text to display at the top of the subscription form."
+msgstr ""
+
+#. %1$s is the field name, %2$s is the email address (only for email field).
+#: addons-options/lead-magnets-settings.php:252
+#, php-format
+msgid ""
+"Enter the label text to display for the %1$s field in the subscription form. "
+"%2$s"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:179
+msgid ""
+"Enter the message to show if the email entered already matches an existing "
+"order for the product."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:413
+msgid ""
+"Enter the name of an icon from https://feathericons.com/ to display as the "
+"icon in the Customer Dashboard menu for the Lead Magnets tab. "
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:142
+msgid ""
+"Enter the name of an icon from https://feathericons.com/ to display as the "
+"icon in the Customer Dashboard menu for this tab."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:423
+msgid ""
+"Enter the plural term you want to use instead of \"Lead Magnets.\" This will "
+"replace the word \"Lead Magnets\" across the interface where multiple lead "
+"magnets are referenced."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:418
+msgid ""
+"Enter the singular term you want to use instead of \"Lead Magnet.\" This "
+"will replace the word \"Lead Magnet\" across the interface where a single "
+"lead magnet is referenced. "
+msgstr ""
+
+#. %1$s is the column heading, %2$s is the column type (order/product).
+#: addons-options/admin-columns-settings.php:307
+#, php-format
+msgid ""
+"Enter the text to display as the %1$s column header in the SureCart %2$ss "
+"list."
+msgstr ""
+
+#: addons-options/misc-settings.php:66
+msgid ""
+"Enter the text to display in the Customer Dashboard menu when users are "
+"logged out. This custom text will replace the default label, making it clear "
+"for visitors who aren't logged in."
+msgstr ""
+
+#. %s is the field name.
+#: addons-options/lead-magnets-settings.php:268
+#, php-format
+msgid ""
+"Enter the text to display next to the %s in the subscription form. Use the "
+"{privacy_policy_link} variable to insert a link to your privacy policy."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:127
+msgid "Enter the text to display on the popup trigger button."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:275
+msgid ""
+"Enter the URL to your privacy policy. This will be used for the "
+"{privacy_policy_link} variable in the checkbox text."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:187
+msgid "Enter the URL where customers clicking this tab should be redirected."
+msgstr ""
+
+#: addons-options/misc-settings.php:90
+msgid ""
+"Enter the URL where customers logging into the SureCart Customer Dashboard "
+"should be redirected."
+msgstr ""
+
+#: addons-options/misc-settings.php:171
+msgid ""
+"Enter the URL where customers logging out of the SureCart Customer Dashboard "
+"should be redirected."
+msgstr ""
+
+#: addons-options/misc-settings.php:195
+msgid ""
+"Enter the URL where customers should be redirected when clicking the “Back "
+"Home” button."
+msgstr ""
+
+#. %s: user role name.
+#: addons-options/misc-settings.php:148
+#, php-format
+msgid ""
+"Enter the URL where users with the %s user role should be redirected when "
+"logging into the SureCart Customer Dashboard."
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:448 
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:458 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:125 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:135
+msgid "Equal to"
+msgstr ""
+
+#: includes/dashboard-tabs/class-surelywp-tk-dt.php:107
+msgid "Error"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:178
+msgid "Existing Customer Message"
+msgstr ""
+
+#: addons-options/overview.php:128
+msgid "Explore Our Other SurelyWP Addons"
+msgstr ""
+
+#: addons-options/import-export-tab.php:22
+msgid "Export All Settings"
+msgstr ""
+
+#: addons-options/import-export-tab.php:16
+msgid "Export Settings"
+msgstr ""
+
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-external-products.php:32
+msgid "External Products"
+msgstr ""
+
+#: addons-options/misc-settings.php:14
+msgid "External/Affiliate Products"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:120 
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:203
+msgid "feature not enable"
+msgstr ""
+
+#: addons-options/overview.php:93
+msgid "Feature Requests"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:199
+msgid "Featured"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:198
+msgid "Featured Product"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:284
+msgid "Field"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:28
+msgid "Fields"
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:270 
+#: includes/class-surelywp-toolkit.php:271 
+#: includes/lead-magnets/class-surelywp-tk-lm-admin.php:143 
+#: includes/lead-magnets/class-surelywp-tk-lm-admin.php:144 
+#: blocks/lead-magnets/surelywp-tk-lm-button/src/edit.js:58
+msgid "First Name"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:463 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:140
+msgid "First Order Date"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:411
+msgid "Fixed Based On Date/Time"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:502
+msgid "FluentCRM"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-ajax-handler.php:91
+msgid "FluentCRM Contact Profile"
+msgstr ""
+
+#: addons-options/fluent-crm-settings.php:35
+msgid "FluentCRM Contact Profile Button"
+msgstr ""
+
+#: includes/surelywp-toolkit-functions.php:549
+msgid "Friday"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:30
+msgid "Fulfillment"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:14
+msgid "General"
+msgstr ""
+
+#: addons-options/overview.php:108
+msgid "Get Support"
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:254 
+#: includes/class-surelywp-toolkit.php:539 
+#: includes/lead-magnets/class-surelywp-tk-lm.php:508
+msgid "Get Your Free Resource!"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:446 
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:456 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:123 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:133
+msgid "Greater than"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:225
+msgid "Hidden"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:200
+msgid "Hide Tab Based On User Roles Or SureMembers Access Groups"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:355
+msgid "Hide “Add To Cart” And “Buy Now” Buttons During Vacation Mode"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://surelywp.com"
+msgstr ""
+
+#: blocks/lead-magnets/surelywp-tk-lm-button/src/edit.js:60
+msgid "I agree to receive emails and accept the "
+msgstr ""
+
+#. %s is replaced with the privacy policy link.
+#. %s: Privacy policy link.
+#: includes/class-surelywp-toolkit.php:284 
+#: includes/lead-magnets/class-surelywp-tk-lm-admin.php:161
+#, php-format
+msgid "I agree to receive emails and accept the %s"
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:135
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:135
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:133
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:135
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:135
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:135
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:135
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:135 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:135 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:135
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:135 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:135
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:135
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:135 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:135
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:137
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:137
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:137
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:137
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:137
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:137
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:137
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:137
+msgid "If Contact Already Exist?"
+msgstr ""
+
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-external-products.php:39
+msgid "If enabled, clicking the button will open the link in a new tab."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:153
+msgid ""
+"If used on a non-product page, the shortcode requires the product_id "
+"attribute to be included. You can find the product ID by going to SureCart > "
+"Products and checking the URL of the individual product page. The product ID "
+"is visible in the URL slug in your browser address bar. An example of the "
+"shortcode would be: [surelywp_lead_magnet_button product_id=\"5420a0f8-06d0-"
+"491f-9fcf-987b838c406c\"]"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:151
+msgid ""
+"If you are not using the default SureCart product pages and are displaying "
+"your products on other pages or post types, you can place the shortcode "
+"[surelywp_lead_magnet_button] anywhere in your content. This shortcode will "
+"automatically display either the popup trigger button or the full inline "
+"form based on your selected form method."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:314
+msgid ""
+"If you are using a page builder or a custom layout instead of the default "
+"SureCart product pages, you can add the vacation notice by placing the "
+"[surelywp_vacation_notice] shortcode in your content. The vacation notice "
+"will dynamically show or hide based on whether vacation mode is enabled."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:157
+msgid ""
+"If you are using the WordPress block editor, you can display the "
+"subscription form or popup button by adding the Lead Magnet Subscription "
+"block to any page. The block will automatically show either a popup trigger "
+"button or the full inline form, depending on the selected Subscription Form "
+"Method in the settings."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:318
+msgid ""
+"If you are using the WordPress block editor, you can display the vacation "
+"notice by adding the Vacation Notice block to any page. The vacation notice "
+"will dynamically show or hide based on whether vacation mode is enabled."
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:150
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:150
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:148
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:150
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:150
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:150
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:150
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:150 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:150 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:150
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:150 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:150
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:150
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:150 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:150
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:152
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:152
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:152
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:152
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:152
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:152
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:152
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:152
+msgid ""
+"If you enable, then it will restart the automation for a contact if the "
+"contact already in the automation. Otherwise, It will just skip if already "
+"exist"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:165
+msgid ""
+"If you're placing the button on a non-product page, you'll need to include "
+"an additional class that specifies the product ID. In this case, add both "
+"surelywp-lead-magnet-button and lm-product-id-{product_id}, where "
+"{product_id} is replaced with the ID of the specific product for which you "
+"want to trigger the subscription form. This ensures the correct product's "
+"subscription form will appear when visitors click the button. You can find "
+"the product ID by going to SureCart > Products and checking the URL of the "
+"product page."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:159
+msgid ""
+"If you're using this block on a page that is not a SureCart product page, "
+"remember to include the Product ID. You can find the product ID by going to "
+"SureCart > Products and checking the URL of the product page."
+msgstr ""
+
+#: addons-options/import-export-tab.php:34
+msgid "Import All Settings"
+msgstr ""
+
+#: addons-options/import-export-tab.php:27
+msgid "Import Settings"
+msgstr ""
+
+#: addons-options/settings-options.php:82
+msgid "Import/Export Settings"
+msgstr ""
+
+#: addons-options/addons-settings.php:42
+msgid "Inactive"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:423 
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:489 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:100 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:166
+msgid "includes"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:425 
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:491 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:102 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:168
+msgid "includes all of"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:426 
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:492 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:103 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:169
+msgid "Includes none of (match all)"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:121
+msgid "Inline Form"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:141
+msgid "Inline Form Location"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:254
+msgid "Inquiries"
+msgstr ""
+
+#: includes/admin-columns/class-surelywp-tk-ac-ajax-handler.php:165
+msgid "Installments"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:54 
+#: addons-options/admin-columns-settings.php:172
+msgid "Integrations"
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm-ajax-handler.php:261
+msgid "Invalid Email ID"
+msgstr ""
+
+#: includes/import-export/class-surelywp-tk-ie.php:158
+msgid "Invalid file upload."
+msgstr ""
+
+#: includes/import-export/class-surelywp-tk-ie.php:172
+msgid "Invalid JSON file."
+msgstr ""
+
+#: includes/admin-columns/class-surelywp-tk-ac-ajax-handler.php:80 
+#: includes/admin-columns/class-surelywp-tk-ac-ajax-handler.php:196
+msgid "Invalid nonce."
+msgstr ""
+
+#: includes/import-export/class-surelywp-tk-ie.php:167
+msgid "Invalid Toolkit Plugin Settings"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:117 
+#: addons-options/admin-columns-settings.php:118
+msgid "Invoice"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:25 
+#: addons-options/dashboard-tabs-settings.php:27 
+#: includes/misc-settings/class-surelywp-tk-misc.php:924
+msgid "Invoices"
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:144
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:144
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:142
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:144
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:144
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:144
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:144
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:144 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:144 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:144
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:144 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:144
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:144
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:144 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:144
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:146
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:146
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:146
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:146
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:146
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:146
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:146
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:146
+msgid "Keep it blank to run to any product purchase"
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:276 
+#: includes/class-surelywp-toolkit.php:277 
+#: includes/lead-magnets/class-surelywp-tk-lm-admin.php:151 
+#: includes/lead-magnets/class-surelywp-tk-lm-admin.php:152 
+#: blocks/lead-magnets/surelywp-tk-lm-button/src/edit.js:59
+msgid "Last Name"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:473 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:150
+msgid "Last Order Date"
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:559 
+#: addons-options/admin-columns-settings.php:125 
+#: addons-options/admin-columns-settings.php:126 
+#: includes/admin-columns/class-surelywp-tk-admin-columns.php:149
+msgid "Lead Magnet"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:432
+msgid "Lead Magnet Downloads List"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:434
+msgid "Lead Magnet Downloads Shortcode"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:42
+msgid "Lead Magnet Products"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:522 
+#: includes/class-surelywp-toolkit.php:557 
+#: includes/class-surelywp-toolkit.php:560 
+#: templates/lead-magnets/blocks/admin/product-lead-magnet-block.php:30
+msgid "Lead Magnets"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:447 
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:457 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:124 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:134
+msgid "Less than"
+msgstr ""
+
+#: addons-options/overview.php:58 addons-options/settings-options.php:195
+msgid "License Key"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:537
+msgid "License Key "
+msgstr ""
+
+#: addons-options/settings-options.php:196
+msgid "Licensing"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:151
+msgid "Link To URL"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:50
+msgid "list-edit"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:66
+msgid "list_edit"
+msgstr ""
+
+#: templates/surecart-customer-template/template-surecart-dashboard.php:130
+msgid "Log Out"
+msgstr ""
+
+#: addons-options/misc-settings.php:74
+msgid "Login/Logout Redirection"
+msgstr ""
+
+#: addons-options/addons-settings.php:71
+msgid "Manage"
+msgstr ""
+
+#: addons-options/misc-settings.php:320
+msgid "Manually Sync Past Orders"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:102
+msgid "Media Id not Found"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:140
+msgid "media url not found"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:46
+msgid "Method"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:492
+msgid "Miscellaneous"
+msgstr ""
+
+#: includes/admin-columns/class-surelywp-tk-ac-ajax-handler.php:91
+msgid "Missing checkout IDs."
+msgstr ""
+
+#: includes/admin-columns/class-surelywp-tk-ac-ajax-handler.php:210
+msgid "Missing checkout or customer IDs."
+msgstr ""
+
+#: includes/surelywp-toolkit-functions.php:545
+msgid "Monday"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:136
+msgid "Name"
+msgstr ""
+
+#: addons-options/overview.php:109
+msgid "Need help? Browse troubleshooting tips or contact our support team."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:50 
+#: addons-options/lead-magnets-settings.php:296 
+#: addons-options/lead-magnets-settings.php:322 
+#: addons-options/lead-magnets-settings.php:344 
+#: addons-options/lead-magnets-settings.php:399 
+#: addons-options/dashboard-tabs-settings.php:65 
+#: addons-options/dashboard-tabs-settings.php:128 
+#: addons-options/dashboard-tabs-settings.php:205 
+#: addons-options/fluent-crm-settings.php:24 
+#: addons-options/fluent-crm-settings.php:42 
+#: addons-options/fluent-crm-settings.php:54 
+#: addons-options/fluent-crm-settings.php:66 
+#: addons-options/product-visibility-settings.php:23 
+#: addons-options/vacation-mode-settings.php:152 
+#: addons-options/vacation-mode-settings.php:269 
+#: addons-options/vacation-mode-settings.php:286 
+#: addons-options/vacation-mode-settings.php:327 
+#: addons-options/vacation-mode-settings.php:341 
+#: addons-options/vacation-mode-settings.php:365 
+#: addons-options/vacation-mode-settings.php:382 
+#: addons-options/vacation-mode-settings.php:400 
+#: addons-options/user-switching-settings.php:25 
+#: addons-options/user-switching-settings.php:68 
+#: addons-options/user-switching-settings.php:80 
+#: addons-options/user-switching-settings.php:98 
+#: addons-options/user-switching-settings.php:110 
+#: addons-options/user-switching-settings.php:128 
+#: addons-options/user-switching-settings.php:140 
+#: addons-options/user-switching-settings.php:158 
+#: addons-options/user-switching-settings.php:170 
+#: addons-options/user-switching-settings.php:192 
+#: addons-options/user-switching-settings.php:204 
+#: addons-options/user-switching-settings.php:227 
+#: addons-options/user-switching-settings.php:239 
+#: addons-options/user-switching-settings.php:261 
+#: addons-options/user-switching-settings.php:273 
+#: addons-options/admin-columns-settings.php:245 
+#: addons-options/admin-columns-settings.php:257 
+#: addons-options/admin-columns-settings.php:325 
+#: addons-options/admin-columns-settings.php:338 
+#: addons-options/misc-settings.php:21 addons-options/misc-settings.php:39 
+#: addons-options/misc-settings.php:58 addons-options/misc-settings.php:82 
+#: addons-options/misc-settings.php:100 addons-options/misc-settings.php:163 
+#: addons-options/misc-settings.php:187 addons-options/misc-settings.php:212 
+#: addons-options/misc-settings.php:232 addons-options/misc-settings.php:245 
+#: addons-options/misc-settings.php:266 addons-options/misc-settings.php:278 
+#: addons-options/misc-settings.php:340 addons-options/misc-settings.php:352
+msgid "No"
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm.php:1053
+msgid "No downloads found for this purchase."
+msgstr ""
+
+#: includes/import-export/class-surelywp-tk-ie.php:150
+msgid "No file uploaded."
+msgstr ""
+
+#: addons-options/addons-settings.php:44
+msgid "Not Installed"
+msgstr ""
+
+#: addons-options/misc-settings.php:306
+msgid ""
+"Note that variants should only be used on products with one price option. "
+"Otherwise, there is a limitation preventing the shortcode from displaying "
+"the variant price."
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:68
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:98
+msgid "Occurs when a refund is created"
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:68
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:98
+msgid "Occurs when a refund's status changes to succeeded"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:70
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:100
+msgid "Occurs when a subscription is created"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:70
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:100
+msgid ""
+"Occurs when a subscription is set to cancel at the end of the current "
+"billing period"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:70
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:100
+msgid "Occurs when a subscription is updated"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:100
+msgid "Occurs when a subscription's status changes to active"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:70
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:100
+msgid "Occurs when a subscription's status changes to canceled"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:70
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:100
+msgid "Occurs when a subscription's status changes to completed"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:70
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:100
+msgid "Occurs when a subscription's status changes to trialing"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:68 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:98
+msgid "Occurs when an order is created"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:68
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:98
+msgid "Occurs when an order's fulfillment status changes to fulfilled"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:68
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:98
+msgid ""
+"Occurs when an order's fulfillment status changes to partially fulfilled"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:68
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:98
+msgid "Occurs when an order's fulfillment status changes to unfulfilled"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:68
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:98
+msgid "Occurs when an order's shipment status changes to delivered"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:68
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:98
+msgid "Occurs when an order's shipment status changes to partially shipped"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:68 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:98
+msgid "Occurs when an order's shipment status changes to shipped"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:68
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:98
+msgid "Occurs when an order's shipment status changes to unshipped"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:68 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:98
+msgid "Occurs when an order's status changes to paid"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:68
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:98
+msgid "Occurs when an order's status changes to payment failed"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:68
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:98
+msgid "Occurs when an order's status changes to processing"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:68 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:98
+msgid "Occurs when an order's status changes to void"
+msgstr ""
+
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:95
+msgid "Occurs whenever a purchase is revoked"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:468 
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:478 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:145 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:155
+msgid "On"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:227 
+#: addons-options/dashboard-tabs-settings.php:95 
+#: addons-options/admin-columns-settings.php:286
+msgid "open"
+msgstr ""
+
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-external-products.php:39
+msgid "Open in New Tab"
+msgstr ""
+
+#: templates/surecart-customer-template/template-surecart-dashboard.php:99
+msgid "Open or close account menu"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:832 
+#: includes/misc-settings/class-surelywp-tk-misc.php:998
+msgid "Open SureCart App"
+msgstr ""
+
+#: assets/js/surelywp-tk-backend.js:20
+msgid "or"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:14
+msgid "Order"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:193
+msgid "Order Again"
+msgstr ""
+
+#: addons-options/misc-settings.php:204
+msgid "Order Again Buttons"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:937
+msgid "Order Bumps"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:225
+msgid "Order Columns"
+msgstr ""
+
+#: assets/js/lead-magnets/surelywp-tk-lm-front.js:138 
+#: assets/js/lead-magnets/surelywp-tk-lm-front.js:270
+msgid "Order Created successfully."
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:77
+msgid "Order Date"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:29
+msgid "Order Fulfillment Status"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:53
+msgid "Order Integrations"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:359
+msgid "Order Not Found."
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:13
+msgid "Order Number"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:45
+msgid "Order Payment Method"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:21
+msgid "Order Payment Status"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:37
+msgid "Order Shipping Status"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:61
+msgid "Order Total"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:69
+msgid "Order Type"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:18 
+#: addons-options/dashboard-tabs-settings.php:20 
+#: addons-options/user-switching-settings.php:121
+msgid "Orders"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:243 
+#: blocks/vacation-mode/surelywp-tk-vm-notice/src/edit.js:36
+msgid ""
+"Our store will be closed from {vacation_start_date} to {vacation_end_date}. "
+"Orders placed during this time will be processed when we return. Thank you "
+"for your patience and understanding!"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:487
+msgid "Overview"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:978
+msgid "Payouts"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:32 
+#: addons-options/dashboard-tabs-settings.php:34
+msgid "Plans"
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm-ajax-handler.php:96 
+#: assets/js/lead-magnets/surelywp-tk-lm-front.js:37
+msgid "Please check the consent checkbox."
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:291 
+#: includes/class-surelywp-toolkit.php:546
+msgid "Please confirm your free download!"
+msgstr ""
+
+#: addons-options/settings-options.php:58
+msgid "please enter your license key."
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:136
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:136
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:134
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:136
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:136
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:136
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:136
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:136 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:136 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:136
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:136 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:136
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:136
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:136 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:136
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:138
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:138
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:138
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:138
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:138
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:138
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:138
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:138
+msgid ""
+"Please specify what will happen if the subscriber already exist in the "
+"database"
+msgstr ""
+
+#: addons-options/overview.php:33
+msgid "Plugin Resources"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:131
+msgid "Popup Button Location"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:126
+msgid "Popup Button Text"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:120
+msgid "Popup Form"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:145
+msgid "Price"
+msgstr ""
+
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-price-desc.php:46
+msgid "Price Description Display"
+msgstr ""
+
+#: addons-options/misc-settings.php:32 
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-price-desc.php:40
+msgid "Price Descriptions"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:226
+msgid "Priority"
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm.php:374 
+#: templates/lead-magnets/subscription-form.php:53
+msgid "privacy policy"
+msgstr ""
+
+#: blocks/lead-magnets/surelywp-tk-lm-button/src/edit.js:60
+msgid "privacy policy."
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:180
+msgid "Product Collections"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:228
+msgid "Product Columns"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:153
+msgid "Product Commission Amount"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:207
+msgid "Product Date Created"
+msgstr ""
+
+#: blocks/lead-magnets/surelywp-tk-lm-button/src/edit.js:47
+msgid "Product ID"
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm.php:415
+msgid "Product ID not Found"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:185
+msgid "Product Id not Found"
+msgstr ""
+
+#: assets/js/lead-magnets/surelywp-tk-lm-front.js:85
+msgid "Product ID not found."
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:171
+msgid "Product Integrations"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:85 
+#: addons-options/admin-columns-settings.php:86 
+#: addons-options/admin-columns-settings.php:135
+msgid "Product Name"
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm.php:635
+msgid "Product Not Found"
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm.php:424
+msgid "Product not Found"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:190
+msgid "Product Page"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:189
+msgid "Product Page Publish Status"
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:41
+msgid "Product Page Visibility"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:493
+msgid "Product Post Id Not Found"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:144
+msgid "Product Price"
+msgstr ""
+
+#: addons-options/misc-settings.php:289
+msgid "Product Price Display"
+msgstr ""
+
+#: addons-options/misc-settings.php:291
+msgid "Product Price ID Shortcode"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:162
+msgid "Product Quantity"
+msgstr ""
+
+#: includes/misc-settings/metaboxes/surelywp-tk-misc-external-products.php:37
+msgid "Product URL"
+msgstr ""
+
+#: addons-options/misc-settings.php:299
+msgid "Product Variant Price ID Shortcode"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:527
+msgid "Product Visibility"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:22
+msgid "Products"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:170
+msgid "Products For Vacation"
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:70 
+#: addons-options/product-visibility-settings.php:127
+msgid "Published + Available For Purchase"
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:82 
+#: addons-options/product-visibility-settings.php:139
+msgid "Published + Unavailable For Purchase"
+msgstr ""
+
+#: addons-options/addons-settings.php:87
+msgid "Purchase"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:353
+msgid "Purchase Limitations During Vacation"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:417 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:94
+msgid "Purchased Product Collections"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:405 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:82
+msgid "Purchased Product Prices"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:398 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:73
+msgid "Purchased Products"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:431 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:108
+msgid "Purchased Products Variants"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:163
+msgid "Quantity"
+msgstr ""
+
+#: includes/admin-columns/class-surelywp-tk-ac-ajax-handler.php:233 
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:445
+msgid "Recovered"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:109 
+#: addons-options/admin-columns-settings.php:110
+msgid "Recovery Status"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:412
+msgid "Recurring Based On Days Of The Week"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:973
+msgid "Referrals"
+msgstr ""
+
+#: addons-options/misc-settings.php:52
+msgid "Rename Customer Dashboard Menu Text"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:407
+msgid "Rename Customer Dashboard Tab Text"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:417
+msgid "Rename Lead Magnet Singular Name"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:422
+msgid "Rename Lead Magnets Plural Name"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:412
+msgid "Replace Customer Dashboard Tab Icon"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:963
+msgid "Requests"
+msgstr ""
+
+#. %s is the field name.
+#: addons-options/lead-magnets-settings.php:306
+#, php-format
+msgid "Require %s"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:339
+msgid "Require Double-Optin Verification Email"
+msgstr ""
+
+#. %s is the field name.
+#: addons-options/lead-magnets-settings.php:315
+#, php-format
+msgid "Require the %s field to be filled out before the form can be submitted."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:312
+msgid "Require the checkbox to be checked before the form can be submitted."
+msgstr ""
+
+#: addons-options/settings-options.php:95
+msgid "Reset Settings"
+msgstr ""
+
+#: addons-options/settings-options.php:23
+msgid "Reset Settings To Default?"
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:149
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:149
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:147
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:149
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:149
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:149
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:149
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:149 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:149 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:149
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:149 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:149
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:149
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:149 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:149
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:151
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:151
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:151
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:151
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:151
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:151
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:151
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:151
+msgid ""
+"Restart the Automation Multiple times for a contact for this event. (Only "
+"enable if you want to restart automation for the same contact)"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:399 
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:400
+msgid "Retry Payment"
+msgstr ""
+
+#: includes/surelywp-toolkit-functions.php:550
+msgid "Saturday"
+msgstr ""
+
+#: addons-options/settings-options.php:99
+msgid "Save Changes"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:395
+msgid "Schedule Vacation"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:431
+msgid "Select a date and time for the vacation to end."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:423
+msgid "Select a date and time for the vacation to start."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:458
+msgid "Select a day of the week for the vacation to end."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:441
+msgid "Select a day of the week for the vacation to start."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:467
+msgid "Select a time on the selected day of the week for the vacation to end."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:450
+msgid ""
+"Select a time on the selected day of the week for the vacation to start."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:33
+msgid ""
+"Select any SureCart or WordPress user roles you want to allow access the "
+"user switching features."
+msgstr ""
+
+#: addons-options/misc-settings.php:109
+msgid ""
+"Select any SureCart or WordPress user roles you want to allow redirection."
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:142
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:142
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:140
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:142
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:142
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:142
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:142
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:142 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:142 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:142
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:142 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:142
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:142
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:142 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:142
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:144
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:144
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:144
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:144
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:144
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:144
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:144
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:144
+msgid "Select for which products this automation will run"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:233
+msgid ""
+"Select one or more SureMembers Access Groups with an active status. The tab "
+"will be hidden from logged-in users who belong to at least one of the "
+"selected access groups. If no access group is selected or the selected "
+"groups are inactive, the tab will be visible to all users."
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:257
+msgid ""
+"Select one or more WordPress user roles. The tab will be hidden from logged-"
+"in users assigned to at least one of the selected roles. If no user role is "
+"selected, the tab will be visible to all users."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:96 
+#: addons-options/vacation-mode-settings.php:204
+msgid "Select Specific Product Collections"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:69 
+#: addons-options/vacation-mode-settings.php:183
+msgid "Select Specific Products"
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:105
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:105
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:103
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:105
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:105
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:105
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:105
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:105 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:105 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:105
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:105 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:105
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:105
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:105 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:105
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:107
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:107
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:107
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:107
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:107
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:107
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:107
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:107
+msgid "Select Status"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:232
+msgid "Select SureMembers Access Groups To Hide Tab"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:205
+msgid ""
+"Select the SureCart product collection you want to associate all of its "
+"products with this service."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:97
+msgid ""
+"Select the SureCart product collections that you want to change all of its "
+"products to lead magnets."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:70
+msgid ""
+"Select the SureCart products that you want to change to lead magnets. Only "
+"SureCart products that have a price of $0 will appear here as available "
+"selections."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:184
+msgid "Select the SureCart products you want to associate with this service."
+msgstr ""
+
+#: addons-options/misc-settings.php:108
+msgid "Select User Roles For Redirection"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:256
+msgid "Select User Roles To Hide Tab"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:59
+msgid ""
+"Select which products you want to convert into lead magnets. Note: Only free "
+"products with a single pricing option set to zero can be used as lead "
+"magnets. Products designated as lead magnets will hide the \"Add to Cart\" "
+"and \"Buy Now\" buttons, replacing them with an email opt-in button."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:185
+msgid "Services"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:227
+msgid ""
+"Set the priority for the vacation. A higher priority ensures it is applied "
+"if there are multiple vacations active at the same time."
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:148 
+#: addons-options/lead-magnets-settings.php:25
+msgid "Settings"
+msgstr ""
+
+#: addons-options/overview.php:97
+msgid "Share Ideas"
+msgstr ""
+
+#: addons-options/overview.php:94
+msgid "Share your ideas and help shape the future of this plugin."
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:38
+msgid "Shipping"
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:98
+msgid "Shop Page Visibility"
+msgstr ""
+
+#: addons-options/misc-settings.php:226
+msgid "Show \"Recovered\" Badge for Recovered Orders"
+msgstr ""
+
+#. %1$s is the field name, %2$s is empty for all fields except consent_checkbox where it is 'Field'.
+#: addons-options/lead-magnets-settings.php:284
+#, php-format
+msgid "Show %1$s %2$s"
+msgstr ""
+
+#. %s: Tab heading.
+#: addons-options/dashboard-tabs-settings.php:121
+#, php-format
+msgid "Show %s Tab"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:314
+msgid "Show Column"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:276
+msgid "Show Notice On Product Pages During Vacation"
+msgstr ""
+
+#: addons-options/misc-settings.php:206
+msgid "Show Order Again Button On Orders"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:333
+msgid "Show Product Featured Image"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:264
+msgid "Show Sitewide Banner Notice During Vacation"
+msgstr ""
+
+#: addons-options/misc-settings.php:273
+msgid "Show SureCart App Link In Admin Bar"
+msgstr ""
+
+#: addons-options/misc-settings.php:258
+msgid "Show SureCart Menu In Admin Bar"
+msgstr ""
+
+#: addons-options/misc-settings.php:335
+msgid "Show Thumbnails In Customer Download List"
+msgstr ""
+
+#: addons-options/misc-settings.php:347
+msgid "Show Thumbnails In Product Admin Download List"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:322
+msgid "Show Vacation Notice On Individual Services"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:336
+msgid "Show Vacation Notice On Individual Support Tickets"
+msgstr ""
+
+#: addons-options/misc-settings.php:316
+msgid ""
+"Some of our plugin’s features require access to SureCart order and "
+"subscription data. This data is automatically synced when the plugin is "
+"installed, so in most cases, no action is required. However, if something "
+"interferes with that automatic sync, such as a timeout, plugin conflict, or "
+"delayed connection, this setting provides a manual method to reprocess and "
+"import that data as needed."
+msgstr ""
+
+#: assets/js/lead-magnets/surelywp-tk-lm-front.js:160 
+#: assets/js/lead-magnets/surelywp-tk-lm-front.js:289
+msgid "Something went wrong"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-ajax-handler.php:105 
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:160 
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:236 
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:321 
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:332 
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:416 
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:468
+msgid "Something went wrong please try again."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:65 
+#: addons-options/vacation-mode-settings.php:179
+msgid "Specific Product Collections"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:63 
+#: addons-options/vacation-mode-settings.php:177
+msgid "Specific Products"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:22
+msgid "Status"
+msgstr ""
+
+#: addons-options/overview.php:70
+msgid "Stay up to date with the latest features, improvements, and fixes."
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:257 
+#: includes/class-surelywp-toolkit.php:542 
+#: templates/lead-magnets/subscription-form.php:19 
+#: blocks/lead-magnets/surelywp-tk-lm-button/src/edit.js:61
+msgid "Submit"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:173
+msgid "Submit Button Text"
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:256 
+#: includes/class-surelywp-toolkit.php:541 
+#: blocks/lead-magnets/surelywp-tk-lm-button/src/edit.js:55
+msgid "Subscribe To Access"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-ajax-handler.php:83
+msgid "Subscriber Not Fount"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:162
+msgid "Subscription Button CSS Class For Page Builder Integration"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:156
+msgid "Subscription Button/Form Block"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:150
+msgid "Subscription Button/Form Shortcode"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:207
+msgid "Subscription Form Fields"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:168
+msgid "Subscription Form Header Text"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:115 
+#: addons-options/lead-magnets-settings.php:117
+msgid "Subscription Form Method"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:380
+msgid "Subscription Not Found."
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:302
+msgid "Subscription payment has been retried successfully."
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:393
+msgid "Subscription Payment Status not fail"
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:104
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:104
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:102
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:104
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:104
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:104
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:104
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:104 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:104 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:104
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:104 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:104
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:104
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:104 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:104
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:106
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:106
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:106
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:106
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:106
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:106
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:106
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:106
+msgid "Subscription Status"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:93 
+#: addons-options/admin-columns-settings.php:94
+msgid "Subscription Type"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:151
+msgid "Subscriptions"
+msgstr ""
+
+#: includes/surelywp-toolkit-functions.php:544
+msgid "Sunday"
+msgstr ""
+
+#: addons-options/user-switching-settings.php:220
+msgid "Support Tickets"
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:66
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:66
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:64
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:66
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:66
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:66
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:66
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:66 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:66 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:66
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:66 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:66
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:66
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:66 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:66
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:68
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:68
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:68
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:68
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:68
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:68
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:68
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:68
+msgid "SureCart"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:345 
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:393 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:175
+msgid "Surecart"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:67 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:97
+msgid "SureCart - Order Cancelled"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:67 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:97
+msgid "SureCart - Order Created"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:67
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:97
+msgid "SureCart - Order Delivered"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:67
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:97
+msgid "SureCart - Order Fulfilled"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:67 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:97
+msgid "SureCart - Order Paid"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:67
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:97
+msgid "SureCart - Order Partially Fulfilled"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:67
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:97
+msgid "SureCart - Order Partially Shipped"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:67
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:97
+msgid "SureCart - Order Payment Failed"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:67
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:97
+msgid "SureCart - Order Processing"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:67 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:97
+msgid "SureCart - Order Shipped"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:67
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:97
+msgid "SureCart - Order Unfulfilled"
+msgstr ""
+
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:67
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:97
+msgid "SureCart - Order Unshipped"
+msgstr ""
+
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:65
+msgid "SureCart - Purchase Revoked"
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:67
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:97
+msgid "SureCart - Refund Created"
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:67
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:97
+msgid "SureCart - Refund Succeeded"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:69
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:99
+msgid "SureCart - Subscription Canceled"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:69
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:99
+msgid "SureCart - Subscription Completed"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:69
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:99
+msgid "SureCart - Subscription Created"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:69
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:99
+msgid "SureCart - Subscription Made Active"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:69
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:99
+msgid "SureCart - Subscription Made Trialing"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:69
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:99
+msgid "SureCart - Subscription Renewed"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:69
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:99
+msgid "SureCart - Subscription Set To Cancel"
+msgstr ""
+
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:69
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:99
+msgid "SureCart - Subscription Updated"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:347
+msgid "Surecart customers are not synced with FluentCRM yet."
+msgstr ""
+
+#: addons-options/misc-settings.php:315
+msgid "SureCart Data Sync Fallback"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:832 
+#: includes/misc-settings/class-surelywp-tk-misc.php:907
+msgid "SureCart Icon"
+msgstr ""
+
+#. Author of the plugin
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:70
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:70
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:68
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:70
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:70
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:70
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:70
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:70 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:70 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:70
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:70 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:70
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:70
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:70 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:70
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:72
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:72
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:72
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:72
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:72
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:72
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:72
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:72
+#:  blocks/lead-magnets/surelywp-tk-lm-button/surelywp-tk-lm-button.php:50 
+#: blocks/vacation-mode/surelywp-tk-vm-notice/surelywp-tk-vm-notice.php:49
+msgid "SurelyWP"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:542
+msgid "SurelyWP Addons "
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:217
+msgid "SureMembers Access Groups"
+msgstr ""
+
+#: includes/user-switching/class-surelywp-tk-user-switching.php:144
+msgid "Switch To This User"
+msgstr ""
+
+#: includes/user-switching/class-surelywp-tk-user-switching.php:121 
+#: includes/user-switching/class-surelywp-tk-user-switching.php:280 
+#: includes/user-switching/class-surelywp-tk-user-switching.php:307 
+#: includes/user-switching/class-surelywp-tk-user-switching.php:334 
+#: includes/user-switching/class-surelywp-tk-user-switching.php:419
+msgid "Switch To User"
+msgstr ""
+
+#: includes/user-switching/class-surelywp-tk-user-switching.php:142
+msgid "Switch User"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:349
+msgid "Sync Surecart Customers"
+msgstr ""
+
+#: addons-options/misc-settings.php:313
+msgid "Syncing"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:147
+msgid "Tab Behavior"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:160
+msgid "Tab Content"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:213
+msgid "Tab Hiding Criteria"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:141
+msgid "Tab Icon"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:186
+msgid "Tab Link"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:136
+msgid "Tab Name"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:221
+msgid "Tab Visibility Condition"
+msgstr ""
+
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-succeeded.php:141
+#:  
+#: includes/fluent-crm/refund-events/class-surelywp-tk-sc-refund-created.php:141
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:139
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-shipped.php:141
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-partially-fulfilled.php:141
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-processing.php:141
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-payment-failed.php:141
+#:  includes/fluent-crm/order-events/class-surelywp-tk-sc-order-paid.php:141 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-voided.php:141 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unfulfilled.php:141
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-created.php:141 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-delivered.php:141
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-unshipped.php:141
+#:  
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-shipped.php:141 
+#: includes/fluent-crm/order-events/class-surelywp-tk-sc-order-fulfilled.php:141
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-canceled.php:143
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-trialing.php:143
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-updated.php:143
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-made-active.php:143
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-created.php:143
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-completed.php:143
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-renewed.php:143
+#:  
+#: includes/fluent-crm/subscription-events/class-surelywp-tk-sc-subscription-set-to-cancel.php:143
+msgid "Target Products"
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm-ajax-handler.php:317
+msgid ""
+"The email address you entered matches an existing customer. Please log in to "
+"your customer dashboard to access this resource."
+msgstr ""
+
+#: includes/class-surelywp-toolkit.php:258 
+#: includes/class-surelywp-toolkit.php:543
+msgid ""
+"The email address you entered matches an existing order for this resource. "
+"Please log in to your customer dashboard to access this resource."
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:285
+msgid ""
+"The Lead Magnets For SureCart plugin has been deactivated because it has "
+"merged with the Toolkit For SureCart plugin. All features are now located in "
+"the Lead Magnets tab of the Toolkit plugin settings. The settings should be "
+"migrated fine, but please double check. Once you have verified all the "
+"relevant settings are updated in the Toolkit plugin, you may proceed with "
+"deleting the Lead Magnets plugin."
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:271
+msgid ""
+"The User Switching plugin has been deactivated because all user switching "
+"features are now provided in the Toolkit plugin."
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:100
+msgid ""
+"These settings control whether products appear in the shop or product list "
+"pages when they are in a specific combination of status and availability."
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:43
+msgid ""
+"These settings control whether visitors can view the individual product page "
+"URL when the product is in a specific combination of status and availability."
+msgstr ""
+
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:66
+#:  
+#: includes/fluent-crm/purchase-events/class-surelywp-tk-sc-purchase-revoked.php:96
+msgid ""
+"This can happen if an order's any product is refunded or if a subscription "
+"is canceled or expired."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:252
+msgid "This field is always required."
+msgstr ""
+
+#. Description of the plugin
+#: includes/class-surelywp-toolkit-admin.php:574 addons-options/overview.php:27
+msgid ""
+"This plugin brings together essential admin tools for SureCart store owners, "
+"including direct FluentCRM integration, user switching, external products, "
+"vacation mode, custom admin columns, customer dashboard customizer, download "
+"lists, product visibility overrides, and many more miscellaneous tools."
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:231
+msgid ""
+"This plugin cannot be activated because all lead magnets features are now "
+"included in the Toolkit plugin."
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:224
+msgid ""
+"This plugin cannot be activated because all user switching features are now "
+"included in the Toolkit plugin."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:105
+msgid ""
+"This will permanently remove the vacation and all of its settings and "
+"configuration. This action cannot be undone."
+msgstr ""
+
+#: includes/surelywp-toolkit-functions.php:548
+msgid "Thursday"
+msgstr ""
+
+#. %s: Link to license input
+#: addons-options/settings-options.php:57
+#, php-format
+msgid "To begin using the plugin, %s"
+msgstr ""
+
+#: addons-options/overview.php:46
+msgid ""
+"To begin using the plugin, be sure to add your license key to enable the "
+"features."
+msgstr ""
+
+#: addons-options/misc-settings.php:292
+msgid ""
+"To display the price of a specific SureCart product pricing option, use the "
+"shortcode [surelywp_product_price id=\"123\"] in your content, replacing the "
+"id attribute with the Price ID."
+msgstr ""
+
+#: addons-options/misc-settings.php:300
+msgid ""
+"To display the price of a specific SureCart product variant, use the "
+"shortcode [surelywp_product_variant_price id=\"123\"] in your content, "
+"replacing the id attribute with the Variant Price ID."
+msgstr ""
+
+#: addons-options/misc-settings.php:294
+msgid ""
+"To find the Price ID, navigate to your SureCart product settings. Locate the "
+"desired pricing option, click the clipboard icon, and copy the Price ID from "
+"the popup. Paste the copied ID into the shortcode as shown above."
+msgstr ""
+
+#: addons-options/misc-settings.php:302
+msgid ""
+"To find the Variant Price ID, navigate to your SureCart product settings. "
+"Locate the desired pricing option, click the clipboard icon, select the "
+"desired variant from the dropdown, and copy the Variant Price ID from the "
+"popup. Paste the copied ID into the shortcode as shown above."
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:348
+msgid ""
+"To sync and enable deep integration with Surecart customers with FluentCRM, "
+"please configure and enable sync."
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:572
+msgid "Toolkit"
+msgstr ""
+
+#. Name of the plugin
+#: includes/class-surelywp-toolkit-admin.php:571
+msgid "Toolkit For SureCart"
+msgstr ""
+
+#: surelywp-toolkit.php:80
+msgid ""
+"Toolkit For SureCart For SureCart is enabled but not effective. It requires "
+"SureCart in order to work."
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:62
+msgid "Total"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:443 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:120
+msgid "Total Order Count"
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:453 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:130
+msgid "Total Order Value"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:101 
+#: addons-options/admin-columns-settings.php:102
+msgid "Trial"
+msgstr ""
+
+#: includes/admin-columns/class-surelywp-tk-admin-columns.php:138
+msgid "Trialing"
+msgstr ""
+
+#: includes/surelywp-toolkit-functions.php:546
+msgid "Tuesday"
+msgstr ""
+
+#: addons-options/admin-columns-settings.php:70
+msgid "Type"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc-ajax-handler.php:525
+msgid "Update the toolkit product meta"
+msgstr ""
+
+#: includes/misc-settings/class-surelywp-tk-misc.php:948
+msgid "Upgrade Groups"
+msgstr ""
+
+#: addons-options/import-export-tab.php:28
+msgid ""
+"Upload a settings file previously exported from this plugin. Importing will "
+"overwrite your current settings with the imported configuration. This action "
+"cannot be undone. Consider exporting your currents settings first as a "
+"backup."
+msgstr ""
+
+#. 1: opening <span> tag, 2: closing </span> tag.
+#: includes/misc-settings/class-surelywp-tk-misc.php:943
+#, php-format
+msgid "Upsells %1$sBeta%2$s"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:396
+msgid ""
+"Use a schedule to start and end the vacation at specific dates and times."
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:483 
+#: includes/fluent-crm/class-surelywp-tk-fc-conditional.php:160
+msgid "Used Coupons"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:216
+msgid "User Role"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:497
+msgid "User Switching"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:430
+msgid "Vacation End Date/Time"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:457
+msgid "Vacation End Day"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:466
+msgid "Vacation End Time"
+msgstr ""
+
+#: includes/class-surelywp-toolkit-admin.php:507
+msgid "Vacation Mode"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:238
+msgid "Vacation Notice"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:317
+msgid "Vacation Notice Block"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:294
+msgid "Vacation Notice Display Location On Product Pages"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:240
+msgid "Vacation Notice Message"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:313
+msgid "Vacation Notice Shortcode"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:224
+msgid "Vacation Priority"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:393
+msgid "Vacation Schedule"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:408
+msgid "Vacation Schedule Type"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:422
+msgid "Vacation Start Date/Time"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:440
+msgid "Vacation Start Day"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:449
+msgid "Vacation Start Time"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:142
+msgid "Vacation Status"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:130 
+#: addons-options/vacation-mode-settings.php:132
+msgid "Vacation Title"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:27
+msgid "vacation-mode"
+msgstr ""
+
+#: addons-options/settings-options.php:80
+msgid "Vacations"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:31 
+#: addons-options/lead-magnets-settings.php:337
+msgid "Verification Email"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:362
+msgid "Verification Email Body"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:357
+msgid "Verification Email Subject"
+msgstr ""
+
+#: addons-options/overview.php:139
+msgid "View All Addons"
+msgstr ""
+
+#: addons-options/overview.php:82
+msgid "View Changelog"
+msgstr ""
+
+#: addons-options/overview.php:69
+msgid "View The Changelog"
+msgstr ""
+
+#: addons-options/dashboard-tabs-settings.php:226
+msgid "Visible"
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:50 
+#: addons-options/product-visibility-settings.php:62 
+#: addons-options/product-visibility-settings.php:74 
+#: addons-options/product-visibility-settings.php:86 
+#: addons-options/product-visibility-settings.php:107 
+#: addons-options/product-visibility-settings.php:119 
+#: addons-options/product-visibility-settings.php:131 
+#: addons-options/product-visibility-settings.php:143
+msgid "Visible To Admins"
+msgstr ""
+
+#: addons-options/product-visibility-settings.php:54 
+#: addons-options/product-visibility-settings.php:66 
+#: addons-options/product-visibility-settings.php:78 
+#: addons-options/product-visibility-settings.php:90 
+#: addons-options/product-visibility-settings.php:111 
+#: addons-options/product-visibility-settings.php:123 
+#: addons-options/product-visibility-settings.php:135 
+#: addons-options/product-visibility-settings.php:147
+msgid "Visible To Customers"
+msgstr ""
+
+#: includes/surelywp-toolkit-functions.php:547
+msgid "Wednesday"
+msgstr ""
+
+#: addons-options/settings-options.php:45
+#, php-format
+msgid "Welcome to the %s plugin by SurelyWP!"
+msgstr ""
+
+#. %s is the plugin title.
+#: addons-options/overview.php:22
+#, php-format
+msgid "Welcome to the %s Plugin!"
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:163
+msgid ""
+"When using the block editor or any other page builder, you can easily create "
+"a subscription button by utilizing the default Button block or button "
+"element in your favorite page builder. To trigger the lead magnet popup form,"
+" simply add the class surelywp-lead-magnet-button in the Additional CSS "
+"Class field within the block settings. This will enable the button to "
+"function as a trigger to open the subscription form related to the product."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:323
+msgid ""
+"When using the Services for SureCart addon, enable this setting to display "
+"the vacation notice on individual Services linked to products included in "
+"vacation mode. Customers viewing a Service tied to a vacation-enabled "
+"product will see the vacation notice, ensuring clear communication to keep "
+"them informed of the active vacation status."
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:337
+msgid ""
+"When using the Support Portal for SureCart addon, enable this setting to "
+"display the vacation notice on individual support tickets linked to products "
+"included in vacation mode. Customers viewing a support ticket tied to a "
+"vacation-enabled product will see the vacation notice, ensuring clear "
+"communication to keep them informed of the active vacation status."
+msgstr ""
+
+#: includes/fluent-crm/class-surelywp-tk-fc-advance-filter.php:346
+msgid ""
+"With Surecart deep integration with FluentCRM, you easily segment your "
+"purchases and target your customers more efficiently."
+msgstr ""
+
+#: addons-options/user-switching-settings.php:61
+msgid "WordPress Users"
+msgstr ""
+
+#: addons-options/vacation-mode-settings.php:241
+msgid ""
+"Write a custom message to display during vacation mode. You can use the "
+"{vacation_start_date} and {vacation_end_date} variables to automatically "
+"insert the dates into your notice. NOTE: If the vacation schedule feature is "
+"not used, please remember to remove the variables since they would not be "
+"relevant."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:51 
+#: addons-options/lead-magnets-settings.php:297 
+#: addons-options/lead-magnets-settings.php:323 
+#: addons-options/lead-magnets-settings.php:345 
+#: addons-options/lead-magnets-settings.php:400 
+#: addons-options/dashboard-tabs-settings.php:66 
+#: addons-options/dashboard-tabs-settings.php:129 
+#: addons-options/dashboard-tabs-settings.php:206 
+#: addons-options/fluent-crm-settings.php:25 
+#: addons-options/fluent-crm-settings.php:43 
+#: addons-options/fluent-crm-settings.php:55 
+#: addons-options/fluent-crm-settings.php:67 
+#: addons-options/product-visibility-settings.php:24 
+#: addons-options/vacation-mode-settings.php:153 
+#: addons-options/vacation-mode-settings.php:270 
+#: addons-options/vacation-mode-settings.php:287 
+#: addons-options/vacation-mode-settings.php:328 
+#: addons-options/vacation-mode-settings.php:342 
+#: addons-options/vacation-mode-settings.php:366 
+#: addons-options/vacation-mode-settings.php:383 
+#: addons-options/vacation-mode-settings.php:401 
+#: addons-options/user-switching-settings.php:26 
+#: addons-options/user-switching-settings.php:69 
+#: addons-options/user-switching-settings.php:81 
+#: addons-options/user-switching-settings.php:99 
+#: addons-options/user-switching-settings.php:111 
+#: addons-options/user-switching-settings.php:129 
+#: addons-options/user-switching-settings.php:141 
+#: addons-options/user-switching-settings.php:159 
+#: addons-options/user-switching-settings.php:171 
+#: addons-options/user-switching-settings.php:193 
+#: addons-options/user-switching-settings.php:205 
+#: addons-options/user-switching-settings.php:228 
+#: addons-options/user-switching-settings.php:240 
+#: addons-options/user-switching-settings.php:262 
+#: addons-options/user-switching-settings.php:274 
+#: addons-options/admin-columns-settings.php:246 
+#: addons-options/admin-columns-settings.php:258 
+#: addons-options/admin-columns-settings.php:326 
+#: addons-options/admin-columns-settings.php:339 
+#: addons-options/misc-settings.php:22 addons-options/misc-settings.php:40 
+#: addons-options/misc-settings.php:59 addons-options/misc-settings.php:83 
+#: addons-options/misc-settings.php:101 addons-options/misc-settings.php:164 
+#: addons-options/misc-settings.php:188 addons-options/misc-settings.php:213 
+#: addons-options/misc-settings.php:233 addons-options/misc-settings.php:246 
+#: addons-options/misc-settings.php:267 addons-options/misc-settings.php:279 
+#: addons-options/misc-settings.php:341 addons-options/misc-settings.php:353
+msgid "Yes"
+msgstr ""
+
+#: addons-options/settings-options.php:26
+msgid ""
+"You are about to reset the plugin settings to their default state. Any "
+"change you have made will be permanently erased. Are you sure you want to do "
+"this?"
+msgstr ""
+
+#: addons-options/misc-settings.php:296 addons-options/misc-settings.php:304
+msgid ""
+"You can also customize how the price is displayed by adding optional "
+"attributes. Use show_strikethrough=\"true\" to display the original price "
+"with a strikethrough next to the sale price, if applicable. For sale prices, "
+"you can modify the sale badge with the sale_text attribute. For example, you "
+"could use sale_text=\"Black Friday Sale!\". If this attribute is not "
+"included, the badge will display \"Sale\" by default."
+msgstr ""
+
+#: addons-options/misc-settings.php:332
+msgid ""
+"You can use the [surelywp_toolkit_downloads_list] shortcode to display a "
+"list of downloadable files from any products the logged-in user has "
+"purchased. This shortcode works with any page builder and is ideal for "
+"creating a custom dashboard or downloads page. By default, it shows all "
+"available downloads, but you can limit it to lead magnet products using "
+"lead_magnets_only=\"true\". Additional attributes include heading=\"Your "
+"Downloads\" to set a custom heading and thumbnail=\"true\" to show product "
+"thumbnails. Example: [surelywp_toolkit_downloads_list heading=\"Your "
+"Downloads\" thumbnail=\"true\"]."
+msgstr ""
+
+#: addons-options/lead-magnets-settings.php:435
+msgid ""
+"You can use the [surelywp_toolkit_downloads_list] shortcode to display a "
+"list of downloadable files from any products the logged-in user has "
+"purchased. This shortcode works with any page builder and is ideal for "
+"creating a custom dashboard or downloads page. By default, it shows all "
+"available downloads, but you can limit it to lead magnet products using "
+"lead_magnets_only=\"true\". Additional attributes include heading=\"Your "
+"Downloads\" to set a custom heading and thumbnail=\"true\" to show product "
+"thumbnails. Example: [surelywp_toolkit_downloads_list heading=\"Your "
+"Downloads\"]."
+msgstr ""
+
+#: includes/user-switching/class-surelywp-tk-user-switching.php:896
+msgid ""
+"You cannot switch to this user since you are already logged in as this user."
+msgstr ""
+
+#: includes/dashboard-tabs/class-surelywp-tk-dt.php:107
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/lead-magnets/class-surelywp-tk-lm.php:1028
+msgid "You must be logged in to view downloads."
+msgstr ""
+
+#: addons-options/misc-settings.php:194
+msgid "“Back Home” Button Redirect URL"
+msgstr ""

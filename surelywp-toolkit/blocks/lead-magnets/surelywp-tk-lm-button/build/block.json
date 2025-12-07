@@ -1,0 +1,36 @@
+{
+  "name": "surelywp/surelywp-tk-lm-button",
+  "version": "1.0.0",
+  "title": "Lead Magnets Subscription",
+  "category": "surelywp",
+  "description": "Display Lead Magnets Subscription Button/Form",
+  "keywords": [
+    "surelywp",
+    "toolkit",
+    "lead",
+    "magnets",
+    "subscription",
+    "form",
+    "subscription",
+    "subscription-form",
+    "surelywp-toolkit",
+    "subscription form",
+    "lead-magnets"
+  ],
+  "attributes": {
+    "product_id": {
+      "type": "string",
+      "selector": "div"
+    }
+  },
+  "discounts": {
+    "reusable": false,
+    "html": false
+  },
+  "textdomain": "surelywp-toolkit",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,215 @@
+.surelywp-lm-optin-form-modal .modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    z-index: 9999 !important;
+}
+
+
+.surelywp-lm-optin-form-modal .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 24px;
+    padding-top: 0;
+    border-radius: 0.5rem;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px 0px rgba(43, 135, 218, 0.20);
+    overflow-y: auto;
+    width: 550px;
+    max-height: 90vh;
+}
+
+.surecart-theme-dark .surelywp-lm-optin-form-modal .modal-content {
+    background: black !important;
+}
+
+.surelywp-lm-optin-form-modal .show-modal h4 {
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.surelywp-lm-optin-form-modal .close-button {
+    float: right;
+    width: 2.8rem;
+    line-height: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background: url(../../images/popup-close-icon.svg) no-repeat;
+    font-size: 0;
+    background-position: 10px 9px !important;
+    position: relative;
+    left: 20px;
+    z-index: 999;
+    display: block;
+}
+
+.surecart-theme-dark .surelywp-lm-optin-form-modal .close-button {
+    background: url(../../images/close-icon-white.svg) no-repeat !important;
+    background-position: 10px 9px !important;
+}
+
+.surelywp-lm-optin-form-modal .text {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.surelywp-lm-optin-form-modal .show-modal #surelywp_reset {
+    border-radius: 5px;
+    background: #06F;
+    font-size: 14px;
+    padding: 4px 15px;
+    display: block;
+    width: 100%;
+    font-weight: 600;
+}
+
+.surelywp-lm-optin-form-modal .show-modal {
+
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    z-index: 999;
+}
+
+.surelywp-lm-optin-form-modal .form-loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid rgb(29, 5, 85);
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+}
+
+
+.lm-loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid rgb(255 255 255);
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.lm-loader-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 99999;
+    top: 0;
+}
+
+
+.surlywp-lm-optin .surlywp-lm-optin-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lm-alert-msg {
+    margin: 15px 0 15px 0;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.surelywp-lm-optin-form-modal sc-form::part(base) {
+    padding-top: 12px;
+}
+
+.surelywp-lm-optin-form-modal .wpcf7 {
+    margin-top: 12px;
+}
+
+@media (max-width: 767px) {
+    .surelywp-lm-optin-form-modal .modal-content {
+        max-width: 90%;
+    }
+}
+
+.surelywp-lm-error {
+    width: 100%;
+}
+
+.cursor-not-allow {
+    pointer-events: none;
+}
+
+.surelywp-lead-magnet-button.disable a {
+    cursor: not-allowed;
+}
+
+.surelywp-lead-magnet-button .wp-block-button__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.surelywp-lead-magnet-button .lm-btn-loader {
+    position: absolute;
+    z-index: 100;
+    --track-color: white;
+    --spinner-size: 10px;
+}
+
+.surelywp-subscription-form .optin_form_consent_checkbox {
+    margin: 20px 0;
+}
+
+.surlywp-lm-optin .optin_form_consent_checkbox::part(label) {
+    line-height: unset;
+}
+
+.surlywp-lm-optin .optin_form_consent_checkbox::part(control) {
+    margin-top: 5px;
+}
+
+.surlywp-lm-optin .lm-form-title {
+    margin-bottom: 12px;
+}
+
+.surelyp-tk-lm-form-block .optin_form_consent_checkbox {
+    margin-bottom: 10px;
+}
+
+.surelywp-tk-lm-dashboard .breadbcrumbs {
+    margin-bottom: 15px;
+}
